@@ -1,5 +1,15 @@
 # Đưa Mầm Lab lên Internet
 
+## GitHub Pages (đã cấu hình tự động)
+
+Repository đã có workflow GitHub Actions để build và publish website khi có push lên nhánh `main`:
+
+- Build command: `npm run build`
+- URL dự kiến: https://dangphu102.github.io/stem/
+- Workflow: `.github/workflows/deploy-pages.yml`
+
+Nếu GitHub Pages chưa được bật, vào repository → Settings → Pages và chọn **GitHub Actions** tại mục Build and deployment. Sau đó vào tab Actions, chờ workflow **Deploy Mầm Lab to GitHub Pages** chạy xong. Những lần cập nhật tiếp theo sẽ tự deploy sau mỗi lần push lên `main`.
+
 ## Phương án nhanh: Netlify Drop
 
 Website hiện là ứng dụng tĩnh Vite/React, không cần máy chủ backend để chạy bản demo.
