@@ -1,0 +1,19 @@
+.profile-chip { width: 100%; color: #263238; border: 0; text-align: left; cursor: pointer; transition: background .2s ease; }
+.profile-chip:hover, .profile-chip:focus-visible { background: #edf2ed; outline: none; }
+.profile-chip:focus-visible { box-shadow: 0 0 0 2px #79a88f; }
+.profile-edit-button { display: grid; place-items: center; width: 34px; height: 34px; padding: 0; color: #fff; border: 0; background: #7eaa9b; border-radius: 50%; font-size: 12px; font-weight: 700; }
+.profile-overlay { position: fixed; z-index: 50; inset: 0; display: grid; place-items: center; padding: 18px; background: rgba(31, 46, 42, .48); backdrop-filter: blur(4px); }
+.profile-dialog { position: relative; width: min(100%, 440px); padding: 34px; background: #fffef9; border: 1px solid #e8e7de; border-radius: 16px; box-shadow: 0 24px 70px rgba(24, 43, 37, .22); animation: profile-appear .18s ease-out; }
+@keyframes profile-appear { from { opacity: 0; transform: translateY(8px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.profile-close { position: absolute; top: 13px; right: 15px; width: 32px; height: 32px; color: #77847e; border: 0; background: transparent; border-radius: 50%; font-size: 24px; line-height: 1; }
+.profile-close:hover { color: #263b3d; background: #f1f3ed; }
+.profile-dialog h2 { margin: 15px 0 7px; color: #334544; font: 600 26px 'Fraunces', serif; }
+.profile-intro { margin-bottom: 23px; color: #7d8982; font-size: 12px; line-height: 1.55; }
+.profile-dialog form { display: grid; gap: 15px; }
+.profile-dialog label { display: grid; gap: 7px; color: #53635b; font-size: 11px; font-weight: 700; }
+.profile-dialog input { width: 100%; padding: 12px 13px; color: #334544; border: 1px solid #dfe5dd; background: #fff; border-radius: 7px; font: 13px 'DM Sans', sans-serif; }
+.profile-dialog input:focus { border-color: #79a88f; outline: 3px solid rgba(121, 168, 143, .18); }
+.profile-storage-note { padding: 10px 12px; color: #818d86; background: #f1f5ef; border-radius: 7px; font-size: 10px; line-height: 1.5; }
+.profile-form-actions { display: flex; justify-content: flex-end; gap: 9px; }
+.profile-form-actions .primary-button { margin-top: 0; }
+@media (max-width: 650px) { .profile-chip { display: flex; padding: 8px 10px; margin: 0 0 8px; }.profile-dialog { padding: 29px 22px 23px; }.profile-dialog h2 { font-size: 23px; } }
