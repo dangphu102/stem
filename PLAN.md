@@ -139,6 +139,16 @@ Gợi ý trải nghiệm: khối lệnh kéo thả, nhiệm vụ tuần tự, s�
 6. Thêm khu vực phụ huynh/giáo viên để xem tiến độ.
 7. Sau khi nội dung ổn định, chuyển lưu trữ từ `localStorage` sang cơ sở dữ liệu.
 
+## Đã triển khai tiếp theo
+
+- Làm chong chóng: thử tác động của gió lên cánh; có nhắc người lớn hỗ trợ với ghim.
+- Làm diều giấy: thử thiết kế cân bằng và lưu ý tránh đường dây điện.
+- Bữa ăn cân bằng: phân nhóm thực phẩm và chọn nước uống phù hợp.
+- Khám phá thế kỉ: dùng trục thời gian để phân loại năm.
+- Túi giữ nhiệt đa năng: so sánh vật liệu cách nhiệt với nước ấm, có người lớn hỗ trợ.
+- Mỗi bài có hướng dẫn thực hành, câu dự đoán và 3 câu hỏi trong thư viện kiểm tra.
+- Thư viện hiện có 13 bài, 39 câu hỏi; đề kiểm tra random 12 câu.
+
 ## Nguồn nội dung
 
 Danh sách bài học do người dùng cung cấp, dựa trên hai bộ tài liệu STEM lớp 4. Khi triển khai chính thức, cần đối chiếu giáo án/SGK và kiểm tra an toàn vật liệu, độ tuổi, bản quyền hình ảnh và hướng dẫn thực hành.

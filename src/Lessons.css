@@ -1,0 +1,21 @@
+.lesson-pinwheel { background: #f4d6a8; }
+.lesson-kite { background: #b9dbe7; }
+.lesson-meal { background: #f1c6bd; }
+.lesson-century { background: #d2c7e8; }
+.lesson-insulation { background: #c8d7dc; }
+.detail-pinwheel { background: #f4d6a8; }
+.detail-pinwheel > div { left: 50%; right: auto; bottom: 49px; width: 8px; height: 8px; background: #445a50; border-radius: 50%; box-shadow: -31px -28px 0 14px #e85d4a, 31px -28px 0 14px #7eaa9b, -31px 28px 0 14px #f3d45d, 31px 28px 0 14px #709eb0; transform: none; }
+.detail-kite { background: #b9dbe7; }
+.detail-kite > div { left: calc(50% - 30px); right: auto; bottom: 42px; width: 60px; height: 75px; background: #e85d4a; clip-path: polygon(50% 0, 100% 42%, 50% 100%, 0 42%); transform: none; box-shadow: none; }
+.detail-meal { background: #f1c6bd; }
+.detail-meal > div { left: 50%; right: auto; bottom: 22px; width: 112px; height: 112px; background: #fff8d8; border: 9px solid #fff; border-radius: 50%; transform: translateX(-50%); box-shadow: inset 37px 0 #7eaa9b, inset -35px 0 #e85d4a; }
+.detail-century { background: #d2c7e8; }
+.detail-century > div { left: 15%; right: 15%; bottom: 62px; height: 5px; background: #536b62; transform: none; box-shadow: none; }
+.detail-century > div:before { content: ''; position: absolute; inset: -9px 0; background: radial-gradient(circle, #e85d4a 0 7px, transparent 8px) 0 0 / 25% 25px repeat-x; }
+.detail-insulation { background: #c8d7dc; }
+.detail-insulation > div { left: 38%; right: auto; bottom: 27px; width: 62px; height: 78px; background: #fff8d8; border: 7px solid #7eaa9b; border-radius: 10px 10px 15px 15px; transform: none; box-shadow: none; }
+.lesson-steps { margin-top: 22px; padding: 17px 18px; background: #f1f5ef; border-radius: 9px; }
+.lesson-steps h3 { margin: 0 0 10px; color: #40564d; font: 600 17px 'Fraunces', serif; }
+.lesson-steps ol { display: grid; gap: 9px; margin: 0; padding-left: 22px; color: #64736c; font-size: 14px; line-height: 1.55; }
+.lesson-steps li { padding-left: 3px; }
+@media (max-width: 650px) { .lesson-steps ol { font-size: 13px; } }
