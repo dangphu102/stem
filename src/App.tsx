@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import './Profile.css'
+import './Readability.css'
 
 type LessonId = 'bridge' | 'sound' | 'seed' | 'water' | 'wind' | 'heat' | 'irrigation' | 'plants'
 type Lesson = { id: LessonId; category: string; duration: string; title: string; description: string; prompt: string; options: string[]; answer: string; materials: string[] }

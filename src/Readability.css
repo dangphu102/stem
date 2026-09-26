@@ -1,0 +1,71 @@
+/* Readability pass: increase small UI text while preserving the existing hierarchy. */
+.eyebrow,
+.card-label { font-size: 12px; line-height: 1.45; }
+.pill { font-size: 11px; }
+.profile-chip { font-size: 14px; }
+.profile-chip small,
+.sidebar-bottom small { font-size: 12px; }
+.nav-item { font-size: 15px; }
+.nav-item b { font-size: 12px; }
+.sidebar-bottom { font-size: 13px; }
+.content { font-size: 16px; }
+.topbar h1 { font-size: 34px; }
+.streak { font-size: 14px; }
+.streak small { font-size: 12px; }
+.hero-copy p { font-size: 15px; line-height: 1.65; }
+.primary-button { font-size: 14px; }
+.section-heading h2,
+.challenge h2 { font-size: 26px; }
+.section-heading a,
+.text-button { font-size: 13px; }
+.lesson-card { min-height: 228px; }
+.lesson-card h3 { font-size: 23px; line-height: 1.12; }
+.lesson-card p { max-width: 220px; font-size: 13px; line-height: 1.55; }
+.completed-badge { font-size: 11px; }
+.progress-label { font-size: 12px; }
+.step strong { font-size: 13px; }
+.step small { font-size: 12px; }
+.finish-button { font-size: 12px; }
+footer { font-size: 12px; }
+.detail-intro p,
+.activity-panel > p { font-size: 15px; line-height: 1.7; }
+.activity-panel h2 { font-size: 28px; }
+.materials span { font-size: 13px; }
+.question-box strong { font-size: 17px; }
+.question-box > span { font-size: 13px; line-height: 1.5; }
+.question-box button { font-size: 12px; }
+.answer-feedback { font-size: 13px; line-height: 1.5; }
+.mission-panel p { font-size: 13px; line-height: 1.6; }
+.reset-button,
+.back-button { font-size: 14px; }
+.quiz-count { font-size: 13px; }
+.quiz-card h1 { font-size: 37px; }
+.quiz-source { font-size: 13px; }
+.quiz-option { font-size: 15px; line-height: 1.5; }
+.secondary-button { font-size: 13px; }
+.quiz-promo p { font-size: 14px; line-height: 1.6; }
+.stats-grid span { font-size: 11px; }
+.history-row strong { font-size: 14px; }
+.history-row small,
+.empty-state { font-size: 12px; }
+.profile-intro { font-size: 14px; }
+.profile-dialog label { font-size: 13px; }
+.profile-dialog input { font-size: 15px; }
+.profile-storage-note { font-size: 12px; line-height: 1.6; }
+.profile-edit-button { font-size: 14px; }
+
+@media (max-width: 900px) {
+  .content { font-size: 15px; }
+  .lesson-card { min-height: 236px; }
+}
+
+@media (max-width: 650px) {
+  .nav-item { font-size: 14px; }
+  .topbar h1 { font-size: 30px; }
+  .hero-copy p { font-size: 14px; }
+  .lesson-card { min-height: 195px; }
+  .lesson-card h3 { font-size: 22px; }
+  .quiz-card h1 { font-size: 29px; }
+  .activity-panel h2 { font-size: 24px; }
+  .profile-dialog h2 { font-size: 23px; }
+}
