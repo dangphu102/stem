@@ -16,4 +16,14 @@
 .profile-storage-note { padding: 10px 12px; color: #818d86; background: #f1f5ef; border-radius: 7px; font-size: 10px; line-height: 1.5; }
 .profile-form-actions { display: flex; justify-content: flex-end; gap: 9px; }
 .profile-form-actions .primary-button { margin-top: 0; }
+.streak-dialog { max-width: 460px; }
+.streak-summary { display: flex; align-items: baseline; gap: 9px; margin: 18px 0 12px; color: #42584e; }
+.streak-summary strong { color: #e85d4a; font: 700 42px 'Fraunces', serif; }
+.streak-summary > span:last-child { color: #64736c; font-size: 14px; font-weight: 700; }
+.streak-flame { align-self: center; color: #e85d4a; font-size: 25px; }
+.streak-dialog h2 { margin-top: 5px; }
+.streak-last-active { display: flex; justify-content: space-between; gap: 12px; padding: 13px 14px; margin: 17px 0 12px; color: #65736c; background: #f1f5ef; border-radius: 8px; font-size: 12px; }
+.streak-last-active strong { color: #40564d; text-align: right; }
+.streak-dialog .profile-form-actions { margin-top: 15px; }
+.streak-dialog .profile-form-actions .primary-button { margin-left: auto; }
 @media (max-width: 650px) { .profile-chip { display: flex; padding: 8px 10px; margin: 0 0 8px; }.profile-dialog { padding: 29px 22px 23px; }.profile-dialog h2 { font-size: 23px; } }
