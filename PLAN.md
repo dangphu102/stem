@@ -147,8 +147,14 @@ Gợi ý trải nghiệm: khối lệnh kéo thả, nhiệm vụ tuần tự, s�
 - Khám phá thế kỉ: dùng trục thời gian để phân loại năm.
 - Túi giữ nhiệt đa năng: so sánh vật liệu cách nhiệt với nước ấm, có người lớn hỗ trợ.
 - Mô hình chuỗi thức ăn trong tự nhiên: sắp xếp sinh vật theo quan hệ ăn và bị ăn, dự đoán ảnh hưởng khi một mắt xích thay đổi.
+- Nấm có lợi và nấm có hại: tìm hiểu qua tranh ảnh, không chạm hoặc ăn nấm lạ.
+- Ước lượng trong tính toán: dự đoán, kiểm tra bằng đếm hoặc tính chính xác.
+- Hình bình hành biến hóa: nhận biết và ghép hình phẳng.
+- Nhạc cụ em yêu: khám phá âm thanh do rung động tạo ra.
+- Rạp chiếu bóng mini: thử nguồn sáng, vật cản và bóng.
+- Chương trình của em: sắp xếp lệnh, chạy thử và sửa lỗi đơn giản.
+- Thư viện đã đạt 20 bài với 60 câu hỏi (3 câu mỗi bài); đề kiểm tra chọn ngẫu nhiên 12 câu.
 - Mỗi bài có hướng dẫn thực hành, câu dự đoán và 3 câu hỏi trong thư viện kiểm tra.
-- Thư viện hiện có 14 bài, 42 câu hỏi; đề kiểm tra random 12 câu.
 
 ## Nguồn nội dung
 
