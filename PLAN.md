@@ -146,8 +146,9 @@ Gợi ý trải nghiệm: khối lệnh kéo thả, nhiệm vụ tuần tự, s�
 - Bữa ăn cân bằng: phân nhóm thực phẩm và chọn nước uống phù hợp.
 - Khám phá thế kỉ: dùng trục thời gian để phân loại năm.
 - Túi giữ nhiệt đa năng: so sánh vật liệu cách nhiệt với nước ấm, có người lớn hỗ trợ.
+- Mô hình chuỗi thức ăn trong tự nhiên: sắp xếp sinh vật theo quan hệ ăn và bị ăn, dự đoán ảnh hưởng khi một mắt xích thay đổi.
 - Mỗi bài có hướng dẫn thực hành, câu dự đoán và 3 câu hỏi trong thư viện kiểm tra.
-- Thư viện hiện có 13 bài, 39 câu hỏi; đề kiểm tra random 12 câu.
+- Thư viện hiện có 14 bài, 42 câu hỏi; đề kiểm tra random 12 câu.
 
 ## Nguồn nội dung
 

@@ -4,7 +4,7 @@ import './Profile.css'
 import './Readability.css'
 import './Lessons.css'
 
-type LessonId = 'bridge' | 'sound' | 'seed' | 'water' | 'wind' | 'heat' | 'irrigation' | 'plants' | 'pinwheel' | 'kite' | 'meal' | 'century' | 'insulation'
+type LessonId = 'bridge' | 'sound' | 'seed' | 'water' | 'wind' | 'heat' | 'irrigation' | 'plants' | 'pinwheel' | 'kite' | 'meal' | 'century' | 'insulation' | 'foodweb'
 type Lesson = { id: LessonId; category: string; duration: string; title: string; description: string; prompt: string; options: string[]; answer: string; materials: string[]; steps?: string[] }
 type LessonProgress = Record<LessonId, { prediction: string; completed: boolean }>
 type Question = { id: string; lessonId: LessonId; prompt: string; options: string[]; answer: string; explanation: string }
@@ -26,6 +26,7 @@ const lessons: Lesson[] = [
   { id: 'meal', category: 'SỨC KHỎE', duration: '15 PHÚT', title: 'Bữa ăn cân bằng', description: 'Sắp xếp một bữa ăn đa dạng, kết hợp các nhóm thực phẩm và lựa chọn nước uống phù hợp.', prompt: 'Một bữa ăn cân bằng nên có đặc điểm nào?', options: ['Đa dạng các nhóm thực phẩm', 'Chỉ ăn một món yêu thích', 'Thay nước bằng nước ngọt'], answer: 'Đa dạng các nhóm thực phẩm', materials: ['🥦 Thẻ rau củ', '🍚 Thẻ ngũ cốc', '🥚 Thẻ đạm và trái cây'], steps: ['Phân loại thẻ thực phẩm thành rau quả, ngũ cốc và thực phẩm giàu đạm.', 'Sắp xếp thành một đĩa ăn đa dạng, thêm nước lọc.', 'Giải thích vì sao nên thay đổi món ăn và ăn rau quả mỗi ngày.'] },
   { id: 'century', category: 'TOÁN HỌC', duration: '15 PHÚT', title: 'Khám phá thế kỉ', description: 'Dùng trục thời gian để hiểu thế kỉ là gì và xác định một số năm thuộc thế kỉ nào.', prompt: 'Một thế kỉ có bao nhiêu năm?', options: ['10 năm', '100 năm', '1.000 năm'], answer: '100 năm', materials: ['📅 Thẻ năm', '📏 Giấy làm trục thời gian', '✏️ Bút màu'], steps: ['Vẽ trục thời gian từ năm 1901 đến năm 2000.', 'Chia trục thành các nhóm 100 năm và đặt thẻ năm lên trục.', 'Thử xác định năm 2026 thuộc thế kỉ nào và giải thích cách làm.'] },
   { id: 'insulation', category: 'KỸ THUẬT', duration: '25 PHÚT', title: 'Túi giữ nhiệt đa năng', description: 'So sánh các vật liệu bọc bên ngoài cốc nước ấm để tìm cách làm nước nguội chậm hơn.', prompt: 'Vật liệu nào thường giúp hạn chế truyền nhiệt?', options: ['Vải hoặc giấy xốp', 'Lá nhôm mỏng', 'Thìa kim loại'], answer: 'Vải hoặc giấy xốp', materials: ['🥤 Cốc có nắp', '🧣 Vải và giấy', '🌡️ Nhiệt kế (người lớn hỗ trợ)'], steps: ['Nhờ người lớn chuẩn bị các cốc nước ấm vừa phải, không dùng nước sôi.', 'Bọc mỗi cốc bằng một vật liệu khác nhau, giữ các điều kiện giống nhau.', 'Đo nhiệt độ sau cùng một khoảng thời gian và so sánh kết quả.'] },
+  { id: 'foodweb', category: 'KHOA HỌC', duration: '20 PHÚT', title: 'Chuỗi thức ăn trong tự nhiên', description: 'Tạo mô hình chuỗi thức ăn để tìm hiểu sinh vật liên kết với nhau như thế nào trong một môi trường sống.', prompt: 'Trong chuỗi cỏ → châu chấu → ếch, sinh vật nào là thức ăn của ếch?', options: ['Cỏ', 'Châu chấu', 'Mặt Trời'], answer: 'Châu chấu', materials: ['🃏 Thẻ sinh vật', '🧵 Dây hoặc mũi tên giấy', '📄 Giấy làm mô hình'], steps: ['Chọn một môi trường như đồng cỏ; xếp thẻ Mặt Trời, cỏ, châu chấu, ếch theo thứ tự.', 'Dùng mũi tên chỉ chiều truyền thức ăn và năng lượng: cỏ → châu chấu → ếch.', 'Thử bỏ một thẻ sinh vật, dự đoán các sinh vật còn lại bị ảnh hưởng ra sao rồi giải thích.'] },
 ]  
 
 const questions: Question[] = [
@@ -53,6 +54,9 @@ const questions: Question[] = [
   { id: 'plants-1', lessonId: 'plants', prompt: 'Lỗ thoát nước của chậu giúp...', options: ['Tránh úng rễ', 'Giữ hết nước', 'Làm cây ngủ'], answer: 'Tránh úng rễ', explanation: 'Nước dư thoát ra ngoài giúp rễ có không khí.' },
   { id: 'plants-2', lessonId: 'plants', prompt: 'Giá thể giúp cây...', options: ['Đứng vững và nhận nước', 'Bay lên', 'Không cần ánh sáng'], answer: 'Đứng vững và nhận nước', explanation: 'Giá thể nâng đỡ rễ và giữ một phần nước cần thiết.' },
   { id: 'plants-3', lessonId: 'plants', prompt: 'Để cây phát triển khỏe, em nên...', options: ['Theo dõi ánh sáng và tưới vừa đủ', 'Tưới thật nhiều mỗi giờ', 'Đặt cây trong hộp kín'], answer: 'Theo dõi ánh sáng và tưới vừa đủ', explanation: 'Cây cần điều kiện phù hợp, không phải càng nhiều nước càng tốt.' },
+  { id: 'foodweb-1', lessonId: 'foodweb', prompt: 'Trong chuỗi cỏ → châu chấu → ếch, ếch ăn...', options: ['Cỏ', 'Châu chấu', 'Đất'], answer: 'Châu chấu', explanation: 'Mũi tên cho thấy thức ăn được truyền từ châu chấu sang ếch.' },
+  { id: 'foodweb-2', lessonId: 'foodweb', prompt: 'Sinh vật nào thường tự tạo thức ăn nhờ ánh sáng Mặt Trời?', options: ['Cỏ xanh', 'Ếch', 'Châu chấu'], answer: 'Cỏ xanh', explanation: 'Thực vật sử dụng ánh sáng để tạo chất dinh dưỡng và là sinh vật sản xuất.' },
+  { id: 'foodweb-3', lessonId: 'foodweb', prompt: 'Nếu số lượng châu chấu giảm mạnh, điều gì có thể xảy ra với ếch?', options: ['Ếch có ít thức ăn hơn', 'Ếch có thêm thật nhiều thức ăn', 'Không sinh vật nào bị ảnh hưởng'], answer: 'Ếch có ít thức ăn hơn', explanation: 'Các sinh vật trong chuỗi thức ăn phụ thuộc lẫn nhau.' },
   { id: 'pinwheel-1', lessonId: 'pinwheel', prompt: 'Chong chóng quay khi...', options: ['Gió đẩy vào các cánh', 'Giấy đổi màu', 'Có bóng râm'], answer: 'Gió đẩy vào các cánh', explanation: 'Không khí chuyển động tác dụng lực lên cánh chong chóng.' },
   { id: 'pinwheel-2', lessonId: 'pinwheel', prompt: 'Muốn so sánh hai thiết kế cánh công bằng, nên...', options: ['Thử trong điều kiện gió gần giống nhau', 'Thử một cái trong nhà, một cái ngoài bão', 'Đổi nhiều yếu tố cùng lúc'], answer: 'Thử trong điều kiện gió gần giống nhau', explanation: 'Giữ điều kiện thử tương tự giúp nhận ra ảnh hưởng của thiết kế.' },
   { id: 'pinwheel-3', lessonId: 'pinwheel', prompt: 'Khi làm chong chóng có ghim, em nên...', options: ['Nhờ người lớn hỗ trợ', 'Tự chọc ghim vào tay', 'Chạy khi cầm ghim'], answer: 'Nhờ người lớn hỗ trợ', explanation: 'Ghim nhọn cần được người lớn hỗ trợ để đảm bảo an toàn.' },
@@ -70,7 +74,7 @@ const questions: Question[] = [
   { id: 'insulation-3', lessonId: 'insulation', prompt: 'Khi thử nước ấm, học sinh nên...', options: ['Nhờ người lớn chuẩn bị, không dùng nước sôi', 'Tự đun nước sôi', 'Chạm tay vào nước nóng'], answer: 'Nhờ người lớn chuẩn bị, không dùng nước sôi', explanation: 'Người lớn chuẩn bị nước ấm vừa phải để tránh bỏng.' },
 ]
 
-const defaultProfile: StudentProfile = { name: 'Gia Linh', className: 'Lớp 4A' }
+const defaultProfile: StudentProfile = { name: 'Gia Linh', className: 'Lớp 4/6' }
 const defaultProgress: LessonProgress = Object.fromEntries(lessons.map((lesson) => [lesson.id, { prediction: '', completed: false }])) as LessonProgress
 const loadProgress = (): LessonProgress => ({ ...defaultProgress, ...readStorage<Partial<LessonProgress>>('mam-lab-progress', {}) })
 const readStorage = <T,>(key: string, fallback: T): T => { try { const value = localStorage.getItem(key); return value ? JSON.parse(value) as T : fallback } catch { return fallback } }
