@@ -1,0 +1,5205 @@
+{
+  "title": "Ngân hàng câu hỏi STEM Tiểu học",
+  "source": "Questions Only — STEM Tiểu học — Lớp 1–5",
+  "totalQuestions": 285,
+  "questions": [
+    {
+      "id": "pdf-q1",
+      "questionNumber": 1,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Có bao nhiêu quả táo trong hình?",
+      "options": [
+        "6 quả",
+        "7 quả",
+        "8 quả"
+      ],
+      "context": "",
+      "correctAnswer": "7 quả",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình có 7 quả táo."
+    },
+    {
+      "id": "pdf-q2",
+      "questionNumber": 2,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Nhìn hình: đàn vịt và đàn gà, đàn nào có nhiều con hơn?",
+      "options": [
+        "Đàn gà",
+        "Đàn vịt",
+        "Hai đàn bằng nhau"
+      ],
+      "context": "",
+      "correctAnswer": "Đàn vịt",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình có 5 con vịt và 3 con gà."
+    },
+    {
+      "id": "pdf-q3",
+      "questionNumber": 3,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Số nào còn thiếu trong dãy số: 3, 4, …, 6?",
+      "options": [
+        "7",
+        "2",
+        "5"
+      ],
+      "context": "",
+      "correctAnswer": "5",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q4",
+      "questionNumber": 4,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hình nào là hình tam giác?",
+      "options": [
+        "Hình 1",
+        "Hình 3",
+        "Hình 2"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 2",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là hình tròn; Hình 2 là tam giác; Hình 3 là hình vuông."
+    },
+    {
+      "id": "pdf-q5",
+      "questionNumber": 5,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong hình có bao nhiêu hình tam giác?",
+      "options": [
+        "3 hình",
+        "4 hình",
+        "9 hình"
+      ],
+      "context": "",
+      "correctAnswer": "4 hình",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Có 4 hình tam giác, cùng với các hình tròn và hình vuông."
+    },
+    {
+      "id": "pdf-q6",
+      "questionNumber": 6,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bể thứ nhất có 4 con cá, bể thứ hai có 2 con cá. Cả hai bể có tất cả bao nhiêu con cá?",
+      "options": [
+        "6 con",
+        "2 con",
+        "7 con"
+      ],
+      "context": "",
+      "correctAnswer": "6 con",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q7",
+      "questionNumber": 7,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bé có 8 quả bóng bay. Gió thổi bay mất 3 quả. Bé còn lại bao nhiêu quả bóng bay?",
+      "options": [
+        "5 quả",
+        "11 quả",
+        "3 quả"
+      ],
+      "context": "",
+      "correctAnswer": "5 quả",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q8",
+      "questionNumber": 8,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Hàng trên có 5 ngôi sao, hàng dưới có 4 ngôi sao. Có tất cả bao nhiêu ngôi sao? (Em viết số vào chỗ trống.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "9"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q9",
+      "questionNumber": 9,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Đồng hồ chỉ mấy giờ?",
+      "options": [
+        "12 giờ",
+        "3 giờ",
+        "6 giờ"
+      ],
+      "context": "",
+      "correctAnswer": "3 giờ",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Đồng hồ có kim phút chỉ số 12 và kim giờ chỉ số 3."
+    },
+    {
+      "id": "pdf-q10",
+      "questionNumber": 10,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Chiếc bút chì dài bao nhiêu xăng-ti-mét?",
+      "options": [
+        "6 cm",
+        "7 cm",
+        "5 cm"
+      ],
+      "context": "",
+      "correctAnswer": "5 cm",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Đầu bút chì đặt tại vạch 0; đầu nhọn chạm vạch 5 cm."
+    },
+    {
+      "id": "pdf-q11",
+      "questionNumber": 11,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Con mèo ở đâu so với cái hộp?",
+      "options": [
+        "Ở trên cái hộp",
+        "Ở dưới cái hộp",
+        "Ở trong cái hộp"
+      ],
+      "context": "",
+      "correctAnswer": "Ở trên cái hộp",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Con mèo ở phía trên hộp."
+    },
+    {
+      "id": "pdf-q12",
+      "questionNumber": 12,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hôm nay là thứ Hai. Ngày mai là thứ mấy?",
+      "options": [
+        "Chủ nhật",
+        "Thứ Tư",
+        "Thứ Ba"
+      ],
+      "context": "",
+      "correctAnswer": "Thứ Ba",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q13",
+      "questionNumber": 13,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Số gồm 3 chục và 5 đơn vị là số nào?",
+      "options": [
+        "53",
+        "8",
+        "35"
+      ],
+      "context": "",
+      "correctAnswer": "35",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q14",
+      "questionNumber": 14,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong ba số 47, 74, 70, số nào lớn nhất?",
+      "options": [
+        "70",
+        "74",
+        "47"
+      ],
+      "context": "",
+      "correctAnswer": "74",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q15",
+      "questionNumber": 15,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Lớp 1A có 23 bạn, lớp 1B có 25 bạn. Cả hai lớp có tất cả bao nhiêu bạn? (Em viết số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "48"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q16",
+      "questionNumber": 16,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mẹ hái được 15 quả cam. Mẹ biếu bà 5 quả, rồi hái thêm 2 quả nữa. Bây giờ mẹ có bao nhiêu quả cam?",
+      "options": [
+        "12 quả",
+        "10 quả",
+        "22 quả"
+      ],
+      "context": "",
+      "correctAnswer": "12 quả",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q17",
+      "questionNumber": 17,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hình nào là khối lập phương?",
+      "options": [
+        "Hình 1",
+        "Hình 2",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 2",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là khối cầu; Hình 2 là khối lập phương; Hình 3 là khối hộp chữ nhật."
+    },
+    {
+      "id": "pdf-q18",
+      "questionNumber": 18,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Trong vườn có 6 bông hoa đỏ và 3 bông hoa vàng. Bạn Mai trồng thêm 1 cây hoa vàng có 1 bông. Bây giờ vườn có tất cả bao nhiêu bông hoa? (Em viết số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "10"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q19",
+      "questionNumber": 19,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mỗi hình tam giác cần 3 que tính. Bạn Nam xếp 2 hình tam giác rời nhau như hình. Nam cần bao nhiêu que tính?",
+      "options": [
+        "3 que",
+        "5 que",
+        "6 que"
+      ],
+      "context": "",
+      "correctAnswer": "6 que",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình minh hoạ có hai tam giác rời nhau, mỗi tam giác dùng 3 que."
+    },
+    {
+      "id": "pdf-q20",
+      "questionNumber": 20,
+      "grade": 1,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Thứ Hai, cây đậu cao 5 cm. Mỗi ngày cây cao thêm 1 cm. Đến thứ Năm, cây đậu cao bao nhiêu xăng-ti-mét?",
+      "options": [
+        "8 cm",
+        "6 cm",
+        "9 cm"
+      ],
+      "context": "",
+      "correctAnswer": "8 cm",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q21",
+      "questionNumber": 21,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Việc nào em có thể làm để giúp đỡ bố mẹ?",
+      "options": [
+        "Tự bật bếp ga để nấu ăn",
+        "Quét nhà, gấp quần áo",
+        "Tự cắm phích điện nồi cơm"
+      ],
+      "context": "",
+      "correctAnswer": "Quét nhà, gấp quần áo",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q22",
+      "questionNumber": 22,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Đồ vật ở hình nào có thể làm em bị đứt tay?",
+      "options": [
+        "Hình 2",
+        "Hình 1",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 2",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là gấu bông; Hình 2 là dao; Hình 3 là chồng sách."
+    },
+    {
+      "id": "pdf-q23",
+      "questionNumber": 23,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Ở trường, em đến đâu để mượn sách đọc?",
+      "options": [
+        "Thư viện",
+        "Phòng y tế",
+        "Nhà ăn"
+      ],
+      "context": "",
+      "correctAnswer": "Thư viện",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q24",
+      "questionNumber": 24,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Giờ ra chơi, trò chơi nào an toàn?",
+      "options": [
+        "Trèo lên cây cao",
+        "Xô đẩy nhau ở cầu thang",
+        "Nhảy dây ở sân trường"
+      ],
+      "context": "",
+      "correctAnswer": "Nhảy dây ở sân trường",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q25",
+      "questionNumber": 25,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi đèn tín hiệu giao thông bật màu đỏ, người và xe phải làm gì?",
+      "options": [
+        "Đi thật nhanh",
+        "Dừng lại",
+        "Đi chậm lại rồi đi tiếp"
+      ],
+      "context": "",
+      "correctAnswer": "Dừng lại",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q26",
+      "questionNumber": 26,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi đi bộ trên đường không có vỉa hè, em đi như thế nào?",
+      "options": [
+        "Đi giữa lòng đường",
+        "Đi sát mép đường bên phải, nắm tay người lớn",
+        "Vừa đi vừa chạy nhảy, đùa nghịch"
+      ],
+      "context": "",
+      "correctAnswer": "Đi sát mép đường bên phải, nắm tay người lớn",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q27",
+      "questionNumber": 27,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Bộ phận nào của cây nằm ở dưới đất?",
+      "options": [
+        "Bộ phận số 3",
+        "Bộ phận số 1",
+        "Bộ phận số 2"
+      ],
+      "context": "",
+      "correctAnswer": "Bộ phận số 3",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Sơ đồ cây đánh số 1 ở hoa, 2 ở lá, 3 ở rễ."
+    },
+    {
+      "id": "pdf-q28",
+      "questionNumber": 28,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Cây trong chậu bị héo vì bạn quên tưới nhiều ngày. Cây cần thêm gì?",
+      "options": [
+        "Bóng tối",
+        "Đồ chơi",
+        "Nước"
+      ],
+      "context": "",
+      "correctAnswer": "Nước",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q29",
+      "questionNumber": 29,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Con vật ở hình nào sống dưới nước?",
+      "options": [
+        "Hình 1",
+        "Hình 2",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 1",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là cá; Hình 2 là bò; Hình 3 là gà."
+    },
+    {
+      "id": "pdf-q30",
+      "questionNumber": 30,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Con chim dùng bộ phận nào để bay?",
+      "options": [
+        "Mỏ",
+        "Cánh",
+        "Mắt"
+      ],
+      "context": "",
+      "correctAnswer": "Cánh",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q31",
+      "questionNumber": 31,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Em dùng bộ phận nào để ngửi mùi thơm của bông hoa?",
+      "options": [
+        "Tai",
+        "Lưỡi",
+        "Mũi"
+      ],
+      "context": "",
+      "correctAnswer": "Mũi",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q32",
+      "questionNumber": 32,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Em cần rửa tay bằng xà phòng khi nào?",
+      "options": [
+        "Trước khi ăn và sau khi đi vệ sinh",
+        "Chỉ khi tay có vết bẩn to",
+        "Chỉ một lần vào buổi sáng"
+      ],
+      "context": "",
+      "correctAnswer": "Trước khi ăn và sau khi đi vệ sinh",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q33",
+      "questionNumber": 33,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Trời mưa to, em đi học cần mang đồ vật ở hình nào?",
+      "options": [
+        "Hình 2",
+        "Hình 1",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 1",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là ô; Hình 2 là kính râm; Hình 3 là diều."
+    },
+    {
+      "id": "pdf-q34",
+      "questionNumber": 34,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Cô giáo để chậu cây số 1 ở chỗ có ánh sáng, chậu cây số 2 trong hộp tối. Hai chậu được tưới nước như nhau. Sau một tuần, chậu nào xanh tốt hơn?",
+      "options": [
+        "Chậu số 2",
+        "Hai chậu như nhau",
+        "Chậu số 1"
+      ],
+      "context": "",
+      "correctAnswer": "Chậu số 1",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Chậu số 1 đặt nơi có ánh sáng; chậu số 2 ở trong hộp tối."
+    },
+    {
+      "id": "pdf-q35",
+      "questionNumber": 35,
+      "grade": 1,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "open",
+      "prompt": "Em hãy vẽ hoặc kể cho thầy cô nghe một việc em làm để giữ an toàn khi qua đường.",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Qua đường ở vạch dành cho người đi bộ, quan sát hai phía, chờ đèn xanh và đi cùng người lớn khi cần.",
+      "rubric": [
+        "Nêu/vẽ một hành vi an toàn, phù hợp lứa tuổi."
+      ]
+    },
+    {
+      "id": "pdf-q36",
+      "questionNumber": 36,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Số 456 gồm mấy trăm, mấy chục, mấy đơn vị?",
+      "options": [
+        "4 trăm, 5 chục, 6 đơn vị",
+        "6 trăm, 5 chục, 4 đơn vị",
+        "45 trăm, 6 đơn vị"
+      ],
+      "context": "",
+      "correctAnswer": "4 trăm, 5 chục, 6 đơn vị",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q37",
+      "questionNumber": 37,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Số “ba trăm linh năm” viết là",
+      "options": [
+        "350",
+        "305",
+        "3005"
+      ],
+      "context": "",
+      "correctAnswer": "305",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q38",
+      "questionNumber": 38,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Dấu nào điền vào chỗ chấm: 299 … 301?",
+      "options": [
+        "<",
+        ">",
+        "="
+      ],
+      "context": "",
+      "correctAnswer": "<",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q39",
+      "questionNumber": 39,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "38 + 25 = ?",
+      "options": [
+        "53",
+        "513",
+        "63"
+      ],
+      "context": "",
+      "correctAnswer": "63",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q40",
+      "questionNumber": 40,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Thư viện lớp có 72 quyển truyện. Các bạn mượn về nhà 28 quyển. Thư viện còn lại bao nhiêu quyển truyện? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "44"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q41",
+      "questionNumber": 41,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Có 5 đôi giày như hình. Có tất cả bao nhiêu chiếc giày?",
+      "options": [
+        "10 chiếc",
+        "5 chiếc",
+        "7 chiếc"
+      ],
+      "context": "",
+      "correctAnswer": "10 chiếc",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình có 5 đôi giày; mỗi đôi gồm 2 chiếc."
+    },
+    {
+      "id": "pdf-q42",
+      "questionNumber": 42,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Có 15 cái bánh chia đều vào 5 đĩa. Mỗi đĩa có mấy cái bánh?",
+      "options": [
+        "10 cái",
+        "5 cái",
+        "3 cái"
+      ],
+      "context": "",
+      "correctAnswer": "3 cái",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q43",
+      "questionNumber": 43,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Đồng hồ chỉ mấy giờ?",
+      "options": [
+        "8 giờ 30 phút",
+        "9 giờ 30 phút",
+        "6 giờ 40 phút"
+      ],
+      "context": "",
+      "correctAnswer": "8 giờ 30 phút",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Kim phút chỉ số 6; kim giờ nằm giữa 8 và 9 (8 giờ 30 phút)."
+    },
+    {
+      "id": "pdf-q44",
+      "questionNumber": 44,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Em có 1 tờ 10 000 đồng và 1 tờ 5 000 đồng. Em có tất cả bao nhiêu tiền?",
+      "options": [
+        "5 000 đồng",
+        "15 000 đồng",
+        "105 000 đồng"
+      ],
+      "context": "",
+      "correctAnswer": "15 000 đồng",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q45",
+      "questionNumber": 45,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Quả dưa hấu nặng 3 kg, quả bí ngô nặng 5 kg. Cả hai quả nặng bao nhiêu ki-lô-gam? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "8"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q46",
+      "questionNumber": 46,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Can nước có 10 lít. Mẹ rót ra 4 lít để tưới rau. Trong can còn lại bao nhiêu lít nước?",
+      "options": [
+        "14 lít",
+        "4 lít",
+        "6 lít"
+      ],
+      "context": "",
+      "correctAnswer": "6 lít",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q47",
+      "questionNumber": 47,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Chiếc bàn học của em dài khoảng bao nhiêu?",
+      "options": [
+        "1 cm",
+        "1 m",
+        "1 km"
+      ],
+      "context": "",
+      "correctAnswer": "1 m",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q48",
+      "questionNumber": 48,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hình nào là hình tứ giác?",
+      "options": [
+        "Hình 1",
+        "Hình 3",
+        "Hình 2"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 2",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là tam giác; Hình 2 là tứ giác; Hình 3 là hình tròn."
+    },
+    {
+      "id": "pdf-q49",
+      "questionNumber": 49,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hình nào có dạng khối cầu?",
+      "options": [
+        "Hình 2",
+        "Hình 1",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 1",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là khối cầu; Hình 2 là khối trụ; Hình 3 là khối lập phương."
+    },
+    {
+      "id": "pdf-q50",
+      "questionNumber": 50,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Đường gấp khúc ABCD dài bao nhiêu xăng-ti-mét?",
+      "options": [
+        "12 cm",
+        "9 cm",
+        "5 cm"
+      ],
+      "context": "",
+      "correctAnswer": "12 cm",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Đường gấp khúc ABCD có các đoạn AB = 3 cm, BC = 4 cm, CD = 5 cm."
+    },
+    {
+      "id": "pdf-q51",
+      "questionNumber": 51,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Theo biểu đồ tranh, loại quả nào được nhiều bạn trong tổ thích nhất?",
+      "options": [
+        "Chuối",
+        "Táo",
+        "Cam"
+      ],
+      "context": "",
+      "correctAnswer": "Chuối",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ tranh: táo 4 bạn, chuối 6 bạn, cam 3 bạn."
+    },
+    {
+      "id": "pdf-q52",
+      "questionNumber": 52,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong hộp chỉ có các viên bi màu xanh. Bạn Hà lấy ra 1 viên mà không nhìn. Khả năng Hà lấy được viên bi màu đỏ là",
+      "options": [
+        "Chắc chắn",
+        "Không thể",
+        "Có thể"
+      ],
+      "context": "",
+      "correctAnswer": "Không thể",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q53",
+      "questionNumber": 53,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Vườn trường có 4 luống cải, mỗi luống trồng 5 cây. Sau trận mưa to có 2 cây bị hỏng. Vườn còn lại bao nhiêu cây cải? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "18"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q54",
+      "questionNumber": 54,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trên xe buýt có 35 người. Đến trạm, có 12 người xuống và 8 người lên. Lúc này trên xe có bao nhiêu người?",
+      "options": [
+        "39 người",
+        "31 người",
+        "55 người"
+      ],
+      "context": "",
+      "correctAnswer": "39 người",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q55",
+      "questionNumber": 55,
+      "grade": 2,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một bình chứa 20 lít nước. Mỗi ngày bạn Nam dùng 5 lít để tưới rau. Sau mấy ngày thì dùng hết nước trong bình?",
+      "options": [
+        "15 ngày",
+        "5 ngày",
+        "4 ngày"
+      ],
+      "context": "",
+      "correctAnswer": "4 ngày",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q56",
+      "questionNumber": 56,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Đồ vật ở Hình 2 (ống nghe) thường được người làm nghề nào sử dụng?",
+      "options": [
+        "Nông dân",
+        "Lính cứu hoả",
+        "Bác sĩ"
+      ],
+      "context": "",
+      "correctAnswer": "Bác sĩ",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q57",
+      "questionNumber": 57,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Để phòng tránh ngộ độc thực phẩm, em nên làm gì?",
+      "options": [
+        "Ăn thức ăn đã có mùi lạ",
+        "Uống nước lã chưa đun sôi",
+        "Ăn thức ăn đã nấu chín, còn hạn sử dụng"
+      ],
+      "context": "",
+      "correctAnswer": "Ăn thức ăn đã nấu chín, còn hạn sử dụng",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q58",
+      "questionNumber": 58,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi lên, xuống cầu thang ở trường, em cần",
+      "options": [
+        "Chạy thật nhanh để ra sân trước",
+        "Đi bên phải, bám tay vịn, không chen lấn",
+        "Trượt trên tay vịn cầu thang"
+      ],
+      "context": "",
+      "correctAnswer": "Đi bên phải, bám tay vịn, không chen lấn",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q59",
+      "questionNumber": 59,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Ở chợ, người ta chủ yếu làm gì?",
+      "options": [
+        "Mua bán hàng hoá",
+        "Khám chữa bệnh",
+        "Học bài"
+      ],
+      "context": "",
+      "correctAnswer": "Mua bán hàng hoá",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q60",
+      "questionNumber": 60,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Phương tiện ở hình nào đi trên đường thuỷ?",
+      "options": [
+        "Hình 1",
+        "Hình 2",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 1",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là tàu thuỷ; Hình 2 là máy bay; Hình 3 là xe buýt."
+    },
+    {
+      "id": "pdf-q61",
+      "questionNumber": 61,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi ngồi sau xe máy của bố mẹ, em cần làm gì?",
+      "options": [
+        "Đứng lên yên xe để nhìn cho rõ",
+        "Đội mũ bảo hiểm, cài quai đúng cách và ngồi yên",
+        "Thả hai tay ra để vẫy bạn"
+      ],
+      "context": "",
+      "correctAnswer": "Đội mũ bảo hiểm, cài quai đúng cách và ngồi yên",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q62",
+      "questionNumber": 62,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Con vật ở hình nào sống trên cạn?",
+      "options": [
+        "Hình 1",
+        "Hình 2",
+        "Hình 3"
+      ],
+      "context": "",
+      "correctAnswer": "Hình 1",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là cá; Hình 2 là bạch tuộc; Hình 3 là voi."
+    },
+    {
+      "id": "pdf-q63",
+      "questionNumber": 63,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Cây nào sống dưới nước?",
+      "options": [
+        "Cây sen",
+        "Cây xương rồng",
+        "Cây bàng"
+      ],
+      "context": "",
+      "correctAnswer": "Cây sen",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q64",
+      "questionNumber": 64,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Bộ phận nào giúp cơ thể em cử động được?",
+      "options": [
+        "Tóc và móng tay",
+        "Xương và cơ",
+        "Mắt và tai"
+      ],
+      "context": "",
+      "correctAnswer": "Xương và cơ",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q65",
+      "questionNumber": 65,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi em hít vào, không khí đi qua mũi, khí quản rồi vào",
+      "options": [
+        "Dạ dày",
+        "Tim",
+        "Phổi"
+      ],
+      "context": "",
+      "correctAnswer": "Phổi",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q66",
+      "questionNumber": 66,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Để giữ cơ quan bài tiết nước tiểu khoẻ mạnh, em nên",
+      "options": [
+        "Nhịn đi tiểu thật lâu",
+        "Uống đủ nước, không nhịn đi tiểu",
+        "Uống thật ít nước cả ngày"
+      ],
+      "context": "",
+      "correctAnswer": "Uống đủ nước, không nhịn đi tiểu",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q67",
+      "questionNumber": 67,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Ở miền Bắc nước ta, mùa nào thường lạnh nhất trong năm?",
+      "options": [
+        "Mùa đông",
+        "Mùa hè",
+        "Mùa thu"
+      ],
+      "context": "",
+      "correctAnswer": "Mùa đông",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q68",
+      "questionNumber": 68,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi có bão, em và gia đình nên làm gì?",
+      "options": [
+        "Ở trong nhà, tránh xa cửa kính, theo dõi tin dự báo",
+        "Ra ngoài chơi ngắm gió",
+        "Ra sông, suối bắt cá"
+      ],
+      "context": "",
+      "correctAnswer": "Ở trong nhà, tránh xa cửa kính, theo dõi tin dự báo",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q69",
+      "questionNumber": 69,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Giờ ra chơi, Mai thấy một bạn bị ngã chảy máu ở đầu gối. Mai nên làm gì trước tiên?",
+      "options": [
+        "Tự lấy lá cây đắp vào vết thương",
+        "Báo ngay cho thầy cô hoặc nhân viên y tế",
+        "Đứng xem rồi đi chơi tiếp"
+      ],
+      "context": "",
+      "correctAnswer": "Báo ngay cho thầy cô hoặc nhân viên y tế",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q70",
+      "questionNumber": 70,
+      "grade": 2,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "open",
+      "prompt": "Em hãy vẽ hoặc kể cho thầy cô nghe 2 việc gia đình em làm để chuẩn bị khi sắp có mưa bão.",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Đóng/chằng cửa, cất đồ vật dễ bay; chuẩn bị đèn pin, nước uống và nghe hướng dẫn của người lớn.",
+      "rubric": [
+        "Nêu được hai việc chuẩn bị an toàn trước mưa bão."
+      ]
+    },
+    {
+      "id": "pdf-q71",
+      "questionNumber": 71,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Số 7 045 đọc là",
+      "options": [
+        "Bảy nghìn bốn trăm linh lăm",
+        "Bảy trăm bốn mươi lăm",
+        "Bảy nghìn không trăm bốn mươi lăm",
+        "Bảy nghìn bốn mươi lăm trăm"
+      ],
+      "context": "",
+      "correctAnswer": "Bảy nghìn không trăm bốn mươi lăm",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q72",
+      "questionNumber": 72,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bốn bạn đi bộ đếm bước bằng đồng hồ: An 9 870 bước, Bình 9 807 bước, Chi 9 078 bước, Dung 8 979 bước. Bạn nào đi nhiều bước nhất?",
+      "options": [
+        "Bạn Bình (9 807 bước)",
+        "Bạn An (9 870 bước)",
+        "Bạn Chi (9 078 bước)",
+        "Bạn Dung (8 979 bước)"
+      ],
+      "context": "",
+      "correctAnswer": "Bạn An (9 870 bước)",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q73",
+      "questionNumber": 73,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một trận bóng có 1 768 khán giả. Làm tròn số này đến hàng trăm được",
+      "options": [
+        "1 800",
+        "1 700",
+        "1 770",
+        "2 000"
+      ],
+      "context": "",
+      "correctAnswer": "1 800",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q74",
+      "questionNumber": 74,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mỗi hộp có 6 bút chì màu. 8 hộp như thế có bao nhiêu bút chì màu?",
+      "options": [
+        "14 bút",
+        "48 bút",
+        "42 bút",
+        "54 bút"
+      ],
+      "context": "",
+      "correctAnswer": "48 bút",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q75",
+      "questionNumber": 75,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một xe chở 4 thùng sữa, mỗi thùng có 48 hộp. Xe chở tất cả bao nhiêu hộp sữa?",
+      "options": [
+        "162 hộp",
+        "52 hộp",
+        "1 632 hộp",
+        "192 hộp"
+      ],
+      "context": "",
+      "correctAnswer": "192 hộp",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q76",
+      "questionNumber": 76,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Lớp 3A có 50 bạn đi tham quan. Mỗi thuyền chở được nhiều nhất 6 bạn. Cần ít nhất bao nhiêu thuyền để chở hết các bạn?",
+      "options": [
+        "9 thuyền",
+        "8 thuyền",
+        "2 thuyền",
+        "44 thuyền"
+      ],
+      "context": "",
+      "correctAnswer": "9 thuyền",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q77",
+      "questionNumber": 77,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Chiếc bánh được chia thành 4 phần bằng nhau, An ăn phần tô màu. An đã ăn mấy phần của chiếc bánh?",
+      "options": [
+        "Một phần ba (1/3)",
+        "Một phần hai (1/2)",
+        "Một phần tư (1/4)",
+        "Bốn phần (4/1)"
+      ],
+      "context": "",
+      "correctAnswer": "Một phần tư (1/4)",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q78",
+      "questionNumber": 78,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mẹ mua 30 quả cam, biếu bà 1/5 số cam. Mẹ đã biếu bà bao nhiêu quả cam?",
+      "options": [
+        "25 quả",
+        "150 quả",
+        "5 quả",
+        "6 quả"
+      ],
+      "context": "",
+      "correctAnswer": "6 quả",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q79",
+      "questionNumber": 79,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trên mặt đồng hồ, chữ số La Mã IX chỉ số mấy?",
+      "options": [
+        "11",
+        "4",
+        "9",
+        "6"
+      ],
+      "context": "",
+      "correctAnswer": "9",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q80",
+      "questionNumber": 80,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong hình, góc nào là góc vuông?",
+      "options": [
+        "Góc 2",
+        "Góc 1",
+        "Góc 3",
+        "Góc 4"
+      ],
+      "context": "",
+      "correctAnswer": "Góc 2",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là góc nhọn; Hình 2 là góc vuông; Hình 3 là góc tù; Hình 4 là góc bẹt."
+    },
+    {
+      "id": "pdf-q81",
+      "questionNumber": 81,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mặt chiếc đồng hồ treo tường là hình tròn có bán kính 15 cm. Đường kính của mặt đồng hồ là",
+      "options": [
+        "15 cm",
+        "7 cm",
+        "45 cm",
+        "30 cm"
+      ],
+      "context": "",
+      "correctAnswer": "30 cm",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q82",
+      "questionNumber": 82,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mảnh vườn hình chữ nhật dài 12 m, rộng 8 m. Để rào xung quanh vườn cần bao nhiêu mét hàng rào?",
+      "options": [
+        "20 m",
+        "40 m",
+        "96 m",
+        "32 m"
+      ],
+      "context": "",
+      "correctAnswer": "40 m",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q83",
+      "questionNumber": 83,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Viên gạch lát nền hình vuông có cạnh 20 cm. Diện tích viên gạch là bao nhiêu xăng-ti-mét vuông? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "400"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q84",
+      "questionNumber": 84,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "1 kg bằng bao nhiêu gam?",
+      "options": [
+        "1 000 g",
+        "100 g",
+        "10 g",
+        "10 000 g"
+      ],
+      "context": "",
+      "correctAnswer": "1 000 g",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q85",
+      "questionNumber": 85,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một chai nước chứa 500 ml. Hai chai như thế chứa bao nhiêu mi-li-lít?",
+      "options": [
+        "502 ml",
+        "1 000 ml",
+        "250 ml",
+        "100 ml"
+      ],
+      "context": "",
+      "correctAnswer": "1 000 ml",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q86",
+      "questionNumber": 86,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Nhiệt kế trong hình chỉ bao nhiêu độ C?",
+      "options": [
+        "3 °C",
+        "35 °C",
+        "30 °C",
+        "25 °C"
+      ],
+      "context": "",
+      "correctAnswer": "30 °C",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Nhiệt kế có cột đỏ đến vạch 30 °C."
+    },
+    {
+      "id": "pdf-q87",
+      "questionNumber": 87,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Tiết học bắt đầu lúc 7 giờ 15 phút và kéo dài 40 phút. Tiết học kết thúc lúc mấy giờ?",
+      "options": [
+        "8 giờ 15 phút",
+        "7 giờ 40 phút",
+        "7 giờ 25 phút",
+        "7 giờ 55 phút"
+      ],
+      "context": "",
+      "correctAnswer": "7 giờ 55 phút",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q88",
+      "questionNumber": 88,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Bạn Hoa mua 3 quyển vở, mỗi quyển giá 8 000 đồng, và đưa cô bán hàng 50 000 đồng. Cô bán hàng trả lại Hoa bao nhiêu đồng? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "26000",
+        "26 000"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q90",
+      "questionNumber": 90,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Lớp nào thu gom được nhiều chai nhựa nhất?",
+      "options": [
+        "Lớp 3A",
+        "Lớp 3B",
+        "Lớp 3C",
+        "Lớp 3D"
+      ],
+      "context": "Đọc biểu đồ để trả lời các câu 90, 91 và 92. Trong tuần lễ “Sống xanh”, các lớp khối 3 thu gom chai nhựa đã dùng để tái chế. Số chai mỗi lớp thu được ghi trên biểu đồ.",
+      "correctAnswer": "Lớp 3C",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q89 có 3A 125 chai, 3B 98 chai, 3C 140 chai, 3D 87 chai."
+    },
+    {
+      "id": "pdf-q91",
+      "questionNumber": 91,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Lớp 3C thu được nhiều hơn lớp 3D bao nhiêu chai?",
+      "options": [
+        "63 chai",
+        "53 chai",
+        "227 chai",
+        "42 chai"
+      ],
+      "context": "Đọc biểu đồ để trả lời các câu 90, 91 và 92. Trong tuần lễ “Sống xanh”, các lớp khối 3 thu gom chai nhựa đã dùng để tái chế. Số chai mỗi lớp thu được ghi trên biểu đồ.",
+      "correctAnswer": "53 chai",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q89 có 3C 140 chai và 3D 87 chai."
+    },
+    {
+      "id": "pdf-q92",
+      "questionNumber": 92,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Cả bốn lớp thu gom được bao nhiêu chai nhựa? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc biểu đồ để trả lời các câu 90, 91 và 92. Trong tuần lễ “Sống xanh”, các lớp khối 3 thu gom chai nhựa đã dùng để tái chế. Số chai mỗi lớp thu được ghi trên biểu đồ.",
+      "acceptedAnswers": [
+        "450"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q93",
+      "questionNumber": 93,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong túi có 5 viên bi đỏ và 1 viên bi xanh. Lấy ra 1 viên bi mà không nhìn. Câu nào đúng?",
+      "options": [
+        "Chắc chắn lấy được viên bi xanh",
+        "Không thể lấy được viên bi đỏ",
+        "Chắc chắn lấy được viên bi vàng",
+        "Có thể lấy được viên bi xanh"
+      ],
+      "context": "",
+      "correctAnswer": "Có thể lấy được viên bi xanh",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q94",
+      "questionNumber": 94,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hùng làm khung ảnh hình vuông cạnh 15 cm từ một thanh tre dài 1 m. Sau khi làm khung, thanh tre còn thừa bao nhiêu xăng-ti-mét?",
+      "options": [
+        "40 cm",
+        "85 cm",
+        "70 cm",
+        "60 cm"
+      ],
+      "context": "",
+      "correctAnswer": "40 cm",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q95",
+      "questionNumber": 95,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Bồn nước của trường chứa 1 000 lít. Mỗi ngày dùng 125 lít để tưới cây. Sau 6 ngày, bồn còn lại bao nhiêu lít nước? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "250"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q96",
+      "questionNumber": 96,
+      "grade": 3,
+      "category": "Toán học",
+      "kind": "open",
+      "prompt": "Thiết kế luống rau: Lớp em có 20 m dây để rào xung quanh một luống rau hình chữ nhật (chiều dài và chiều rộng là số mét tự nhiên). a) Em hãy đề xuất 2 cách chọn chiều dài, chiều rộng. b) Tính diện tích luống rau theo mỗi cách. c) Chọn cách trồng được nhiều rau nhất và giải thích.",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Ví dụ 6 m × 4 m có diện tích 24 m²; 5 m × 5 m có diện tích 25 m². Với chu vi cố định 20 m và cạnh nguyên dương, 5 × 5 cho diện tích lớn nhất.",
+      "rubric": [
+        "Hai cặp cạnh có tổng 10 m. Tính đúng diện tích từng cách. Chọn và giải thích phương án diện tích lớn hơn."
+      ]
+    },
+    {
+      "id": "pdf-q97",
+      "questionNumber": 97,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Em gái của bố em, em gọi là gì?",
+      "options": [
+        "Dì",
+        "Cô",
+        "Mợ",
+        "Thím"
+      ],
+      "context": "",
+      "correctAnswer": "Cô",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q98",
+      "questionNumber": 98,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi phát hiện đám cháy, cần gọi số điện thoại nào?",
+      "options": [
+        "113",
+        "114",
+        "115",
+        "111"
+      ],
+      "context": "",
+      "correctAnswer": "114",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q99",
+      "questionNumber": 99,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Khi trong nhà có nhiều khói do cháy, em nên di chuyển ra ngoài như thế nào?",
+      "options": [
+        "Đứng thẳng chạy thật nhanh",
+        "Trốn vào gầm giường",
+        "Đi thang máy cho nhanh",
+        "Cúi thấp người, che mũi miệng bằng khăn ướt, đi theo lối thoát hiểm"
+      ],
+      "context": "",
+      "correctAnswer": "Cúi thấp người, che mũi miệng bằng khăn ướt, đi theo lối thoát hiểm",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q100",
+      "questionNumber": 100,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Việc làm nào giúp giữ vệ sinh trường học?",
+      "options": [
+        "Bỏ rác đúng nơi quy định",
+        "Vẽ bậy lên tường lớp",
+        "Đổ nước uống thừa ra hành lang",
+        "Bẻ cành cây trong sân"
+      ],
+      "context": "",
+      "correctAnswer": "Bỏ rác đúng nơi quy định",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q101",
+      "questionNumber": 101,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Hoạt động nào là sản xuất nông nghiệp?",
+      "options": [
+        "Trồng lúa, nuôi cá",
+        "Lắp ráp ô tô trong nhà máy",
+        "Bán hàng ở siêu thị",
+        "Dạy học ở trường"
+      ],
+      "context": "",
+      "correctAnswer": "Trồng lúa, nuôi cá",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q102",
+      "questionNumber": 102,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Sản phẩm nào thường được làm ra từ sản xuất thủ công?",
+      "options": [
+        "Xe máy",
+        "Nón lá làm bằng tay ở làng nghề",
+        "Rau cải",
+        "Tivi"
+      ],
+      "context": "",
+      "correctAnswer": "Nón lá làm bằng tay ở làng nghề",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q103",
+      "questionNumber": 103,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Bộ phận nào của cây hút nước và chất khoáng từ đất?",
+      "options": [
+        "Hoa",
+        "Lá",
+        "Rễ",
+        "Quả"
+      ],
+      "context": "",
+      "correctAnswer": "Rễ",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q104",
+      "questionNumber": 104,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Lá cây có chức năng gì?",
+      "options": [
+        "Hút nước từ đất",
+        "Mọc thành cây mới từ hạt",
+        "Tạo chất dinh dưỡng nhờ ánh sáng, trao đổi khí và thoát hơi nước",
+        "Giữ cho cây đứng vững dưới đất"
+      ],
+      "context": "",
+      "correctAnswer": "Tạo chất dinh dưỡng nhờ ánh sáng, trao đổi khí và thoát hơi nước",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q105",
+      "questionNumber": 105,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Cây nào có thân gỗ?",
+      "options": [
+        "Cây bàng",
+        "Rau muống",
+        "Cây lúa",
+        "Cây mướp"
+      ],
+      "context": "",
+      "correctAnswer": "Cây bàng",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q106",
+      "questionNumber": 106,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Con cá di chuyển trong nước nhờ bộ phận nào?",
+      "options": [
+        "Chân",
+        "Cánh",
+        "Vây và đuôi",
+        "Mang"
+      ],
+      "context": "",
+      "correctAnswer": "Vây và đuôi",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q107",
+      "questionNumber": 107,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Nhóm động vật nào có lông vũ?",
+      "options": [
+        "Mèo, chó, thỏ",
+        "Cá rô, cá chép, lươn",
+        "Ếch, nhái, cóc",
+        "Gà, vịt, chim sẻ"
+      ],
+      "context": "",
+      "correctAnswer": "Gà, vịt, chim sẻ",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q108",
+      "questionNumber": 108,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Thức ăn được cắn, nghiền nhỏ đầu tiên ở đâu?",
+      "options": [
+        "Dạ dày",
+        "Ruột non",
+        "Miệng (nhờ răng)",
+        "Gan"
+      ],
+      "context": "",
+      "correctAnswer": "Miệng (nhờ răng)",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q109",
+      "questionNumber": 109,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Sau khi chạy nhanh, tim đập nhanh hơn. Vì sao?",
+      "options": [
+        "Cơ thể cần nhiều máu mang khí ô-xi và chất dinh dưỡng đến các cơ hơn",
+        "Vì tim bị hỏng",
+        "Vì phổi ngừng hoạt động",
+        "Vì máu ngừng chảy"
+      ],
+      "context": "",
+      "correctAnswer": "Cơ thể cần nhiều máu mang khí ô-xi và chất dinh dưỡng đến các cơ hơn",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q110",
+      "questionNumber": 110,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "short",
+      "prompt": "Bạn Tú cần ngủ khoảng 10 giờ mỗi đêm. Nếu Tú đi ngủ lúc 21 giờ (9 giờ tối) thì Tú nên thức dậy lúc mấy giờ sáng? (Chỉ ghi số giờ.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "7"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q111",
+      "questionNumber": 111,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Vì sao trên Trái Đất có ngày và đêm?",
+      "options": [
+        "Trái Đất có dạng cầu và tự quay; phía được Mặt Trời chiếu sáng là ngày, phía còn lại là đêm",
+        "Mặt Trời tắt vào ban đêm",
+        "Mặt Trăng che hết Mặt Trời mỗi tối",
+        "Trái Đất đứng yên"
+      ],
+      "context": "",
+      "correctAnswer": "Trái Đất có dạng cầu và tự quay; phía được Mặt Trời chiếu sáng là ngày, phía còn lại là đêm",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q112",
+      "questionNumber": 112,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Buổi sáng, Lan đứng giang tay phải về phía Mặt Trời mọc. Phía trước mặt Lan là hướng nào?",
+      "options": [
+        "Hướng Nam",
+        "Hướng Tây",
+        "Hướng Đông",
+        "Hướng Bắc"
+      ],
+      "context": "",
+      "correctAnswer": "Hướng Bắc",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q114",
+      "questionNumber": 114,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Theo biểu đồ, nhịp tim của An nhanh nhất vào lúc nào?",
+      "options": [
+        "Lúc ngồi yên",
+        "Sau khi đi bộ 2 phút",
+        "Sau khi nghỉ 5 phút",
+        "Sau khi chạy nhanh 2 phút"
+      ],
+      "context": "Đọc biểu đồ để trả lời các câu 114, 115 và 116. Nhóm bạn đếm nhịp tim của bạn An (số lần tim đập trong 1 phút) ở các thời điểm khác nhau. Kết quả ghi trên biểu đồ.",
+      "correctAnswer": "Sau khi chạy nhanh 2 phút",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q113: ngồi yên 80, đi bộ 95, chạy nhanh 120, nghỉ 5 phút 85 nhịp/phút."
+    },
+    {
+      "id": "pdf-q115",
+      "questionNumber": 115,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "short",
+      "prompt": "Sau khi chạy nhanh, nhịp tim của An nhiều hơn lúc ngồi yên bao nhiêu lần mỗi phút? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc biểu đồ để trả lời các câu 114, 115 và 116. Nhóm bạn đếm nhịp tim của bạn An (số lần tim đập trong 1 phút) ở các thời điểm khác nhau. Kết quả ghi trên biểu đồ.",
+      "acceptedAnswers": [
+        "40"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q116",
+      "questionNumber": 116,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "choice",
+      "prompt": "Từ biểu đồ, kết luận nào đúng?",
+      "options": [
+        "Nhịp tim luôn giữ nguyên",
+        "Vận động càng mạnh tim đập càng nhanh; khi nghỉ ngơi nhịp tim giảm dần về gần mức ban đầu",
+        "Nghỉ ngơi làm tim đập nhanh hơn",
+        "Đi bộ làm tim đập nhanh hơn chạy"
+      ],
+      "context": "Đọc biểu đồ để trả lời các câu 114, 115 và 116. Nhóm bạn đếm nhịp tim của bạn An (số lần tim đập trong 1 phút) ở các thời điểm khác nhau. Kết quả ghi trên biểu đồ.",
+      "correctAnswer": "Vận động càng mạnh tim đập càng nhanh; khi nghỉ ngơi nhịp tim giảm dần về gần mức ban đầu",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q113: nhịp tim lần lượt là 80, 95, 120, 85 nhịp/phút."
+    },
+    {
+      "id": "pdf-q117",
+      "questionNumber": 117,
+      "grade": 3,
+      "category": "Tự nhiên và Xã hội",
+      "kind": "open",
+      "prompt": "Thiết kế sơ đồ thoát hiểm cho ngôi nhà (hoặc lớp học) của em: a) Vẽ sơ đồ đơn giản, đánh dấu 2 lối thoát ra ngoài và nơi tập trung an toàn. b) Nêu 3 việc cần làm khi nghe báo cháy. c) Đề xuất 2 đồ dùng nên có để phòng cháy, chữa cháy.",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Sơ đồ cần chỉ ra hai lối thoát và điểm tập trung. Khi báo cháy: báo người lớn/gọi 114, cúi thấp tránh khói, thoát theo lối an toàn, không dùng thang máy. Có thể nêu bình chữa cháy và chuông/báo khói.",
+      "rubric": [
+        "Sơ đồ có hai lối thoát và điểm tập trung; nêu ba hành vi an toàn; nêu hai dụng cụ phù hợp."
+      ]
+    },
+    {
+      "id": "pdf-q118",
+      "questionNumber": 118,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Bộ phận nào của máy tính dùng để hiển thị chữ và hình ảnh?",
+      "options": [
+        "Màn hình",
+        "Bàn phím",
+        "Chuột",
+        "Loa"
+      ],
+      "context": "",
+      "correctAnswer": "Màn hình",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q119",
+      "questionNumber": 119,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Thiết bị nào dùng để gõ chữ vào máy tính?",
+      "options": [
+        "Màn hình",
+        "Loa",
+        "Bàn phím",
+        "Tai nghe"
+      ],
+      "context": "",
+      "correctAnswer": "Bàn phím",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q120",
+      "questionNumber": 120,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Trên hàng phím cơ sở, hai phím có gờ nổi để đặt hai ngón trỏ là",
+      "options": [
+        "A và L",
+        "G và H",
+        "Q và P",
+        "F và J"
+      ],
+      "context": "",
+      "correctAnswer": "F và J",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q121",
+      "questionNumber": 121,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Thông tin nào ở dạng âm thanh?",
+      "options": [
+        "Biển báo giao thông bên đường",
+        "Chữ trong quyển truyện",
+        "Tiếng trống trường báo giờ ra chơi",
+        "Bức tranh vẽ phong cảnh"
+      ],
+      "context": "",
+      "correctAnswer": "Tiếng trống trường báo giờ ra chơi",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q122",
+      "questionNumber": 122,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Muốn mở một phần mềm từ biểu tượng trên màn hình, em thường làm gì?",
+      "options": [
+        "Nháy đúp chuột vào biểu tượng",
+        "Nháy chuột phải một lần",
+        "Kéo biểu tượng vào thùng rác",
+        "Xoay con lăn chuột"
+      ],
+      "context": "",
+      "correctAnswer": "Nháy đúp chuột vào biểu tượng",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q123",
+      "questionNumber": 123,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Thư viện lớp xếp sách theo từng loại (truyện, khoa học, từ điển). Cách xếp này giúp gì?",
+      "options": [
+        "Sách nặng hơn",
+        "Tìm sách nhanh hơn",
+        "Sách tự sạch",
+        "Không cần trả sách"
+      ],
+      "context": "",
+      "correctAnswer": "Tìm sách nhanh hơn",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q124",
+      "questionNumber": 124,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Khi xem video trên mạng, có quảng cáo yêu cầu nhập mật khẩu tài khoản của bố mẹ để nhận quà. Em nên làm gì?",
+      "options": [
+        "Nhập ngay để nhận quà",
+        "Không nhập, tắt quảng cáo và báo bố mẹ",
+        "Gửi mật khẩu cho bạn bè cùng nhận",
+        "Tự đoán mật khẩu cho đến khi đúng"
+      ],
+      "context": "",
+      "correctAnswer": "Không nhập, tắt quảng cáo và báo bố mẹ",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q125",
+      "questionNumber": 125,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Tư thế nào đúng khi ngồi dùng máy tính?",
+      "options": [
+        "Cúi sát màn hình cho rõ",
+        "Nằm trên giường dùng máy",
+        "Ngồi trong phòng tối, màn hình thật sáng",
+        "Lưng thẳng, mắt cách màn hình khoảng 50–80 cm"
+      ],
+      "context": "",
+      "correctAnswer": "Lưng thẳng, mắt cách màn hình khoảng 50–80 cm",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q126",
+      "questionNumber": 126,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Em pha một cốc nước cam. Thứ tự các bước nào hợp lí nhất?",
+      "options": [
+        "Rửa và cắt cam → vắt lấy nước → thêm nước, đường → khuấy đều",
+        "Khuấy đều → vắt cam → cắt cam → rửa cam",
+        "Vắt cam → rửa cam → cắt cam → khuấy đều",
+        "Thêm đường → khuấy đều → rửa cam → cắt cam"
+      ],
+      "context": "",
+      "correctAnswer": "Rửa và cắt cam → vắt lấy nước → thêm nước, đường → khuấy đều",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q127",
+      "questionNumber": 127,
+      "grade": 3,
+      "category": "Tin học",
+      "kind": "short",
+      "prompt": "Thư mục “Học tập” có hai thư mục con: “Toán” chứa 3 tệp, “Tiếng Việt” chứa 2 tệp. Ngoài ra, ngay trong “Học tập” còn 1 tệp “Thời khoá biểu”. Trong thư mục “Học tập” có tất cả bao nhiêu tệp? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "6"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q128",
+      "questionNumber": 128,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Đối tượng nào là sản phẩm công nghệ?",
+      "options": [
+        "Quạt điện",
+        "Cây xanh",
+        "Con mèo",
+        "Dòng sông"
+      ],
+      "context": "",
+      "correctAnswer": "Quạt điện",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q129",
+      "questionNumber": 129,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Bộ phận nào của đèn học phát ra ánh sáng?",
+      "options": [
+        "Chân đế",
+        "Bóng đèn",
+        "Công tắc",
+        "Dây nguồn"
+      ],
+      "context": "",
+      "correctAnswer": "Bóng đèn",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q130",
+      "questionNumber": 130,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Khi dùng đèn học, việc nào an toàn?",
+      "options": [
+        "Dùng tay ướt cắm phích điện",
+        "Không chạm tay vào bóng đèn đang sáng, không tự tháo sửa đèn",
+        "Phủ khăn lên bóng đèn đang bật",
+        "Kéo dây điện để rút phích"
+      ],
+      "context": "",
+      "correctAnswer": "Không chạm tay vào bóng đèn đang sáng, không tự tháo sửa đèn",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q131",
+      "questionNumber": 131,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Bộ phận nào của quạt điện tạo ra gió?",
+      "options": [
+        "Cánh quạt",
+        "Lồng quạt",
+        "Thân quạt",
+        "Hộp số"
+      ],
+      "context": "",
+      "correctAnswer": "Cánh quạt",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q132",
+      "questionNumber": 132,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Việc làm nào đúng khi sử dụng quạt điện?",
+      "options": [
+        "Thò ngón tay vào lồng quạt khi quạt đang quay",
+        "Để quạt gần rèm cửa và chạy cả đêm",
+        "Tắt quạt, rút phích cắm trước khi lau quạt",
+        "Ngồi sát quạt bật số mạnh nhất khi vừa đi nắng về"
+      ],
+      "context": "",
+      "correctAnswer": "Tắt quạt, rút phích cắm trước khi lau quạt",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q133",
+      "questionNumber": 133,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Máy thu thanh (ra-đi-ô) dùng để làm gì?",
+      "options": [
+        "Nghe các chương trình phát thanh",
+        "Xem phim hoạt hình",
+        "Làm mát phòng",
+        "Nấu cơm"
+      ],
+      "context": "",
+      "correctAnswer": "Nghe các chương trình phát thanh",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q134",
+      "questionNumber": 134,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Dụng cụ nào dùng để cắt giấy khi làm thủ công?",
+      "options": [
+        "Hồ dán",
+        "Thước kẻ",
+        "Bút chì",
+        "Kéo"
+      ],
+      "context": "",
+      "correctAnswer": "Kéo",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q135",
+      "questionNumber": 135,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Em làm mô hình biển báo cấm. Biển báo cấm thường có dạng nào?",
+      "options": [
+        "Hình tam giác, viền đỏ, nền vàng",
+        "Hình vuông, nền xanh",
+        "Hình tròn, nền xanh",
+        "Hình tròn, viền đỏ, nền trắng"
+      ],
+      "context": "",
+      "correctAnswer": "Hình tròn, viền đỏ, nền trắng",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q136",
+      "questionNumber": 136,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "short",
+      "prompt": "Để làm 1 chiếc thước kẻ bằng bìa cần một dải bìa dài 20 cm. Từ một dải bìa dài 1 m có thể cắt được nhiều nhất bao nhiêu chiếc thước? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "5"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q137",
+      "questionNumber": 137,
+      "grade": 3,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Nhóm em làm chong chóng giấy nhưng khi có gió, chong chóng không quay. Nguyên nhân hợp lí nhất là gì?",
+      "options": [
+        "Giấy làm chong chóng có màu đỏ",
+        "Que cầm làm bằng tre",
+        "Ghim cánh quá chặt vào que nên cánh không quay được",
+        "Chong chóng có 4 cánh"
+      ],
+      "context": "",
+      "correctAnswer": "Ghim cánh quá chặt vào que nên cánh không quay được",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q138",
+      "questionNumber": 138,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Năm 2025, một thành phố có khoảng hai triệu ba trăm nghìn người đi xe buýt mỗi tháng. Số “hai triệu ba trăm nghìn” viết là",
+      "options": [
+        "2 030 000",
+        "230 000",
+        "2 300 000",
+        "2 000 300"
+      ],
+      "context": "",
+      "correctAnswer": "2 300 000",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q139",
+      "questionNumber": 139,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Giá trị của chữ số 5 trong số 3 527 140 là",
+      "options": [
+        "5 000",
+        "50 000",
+        "500 000",
+        "5"
+      ],
+      "context": "",
+      "correctAnswer": "500 000",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q140",
+      "questionNumber": 140,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một nhà máy nước sạch cung cấp 4 360 000 lít nước mỗi ngày. Làm tròn số này đến hàng trăm nghìn được",
+      "options": [
+        "4 300 000 lít",
+        "4 000 000 lít",
+        "4 360 000 lít",
+        "4 400 000 lít"
+      ],
+      "context": "",
+      "correctAnswer": "4 400 000 lít",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q141",
+      "questionNumber": 141,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Năm 2026 thuộc thế kỉ nào?",
+      "options": [
+        "Thế kỉ XX",
+        "Thế kỉ XXII",
+        "Thế kỉ XIX",
+        "Thế kỉ XXI"
+      ],
+      "context": "",
+      "correctAnswer": "Thế kỉ XXI",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q142",
+      "questionNumber": 142,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Một xe tải chở 3 tấn gạo. 3 tấn bằng bao nhiêu ki-lô-gam? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "3000",
+        "3 000"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q143",
+      "questionNumber": 143,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "2 m² bằng bao nhiêu đề-xi-mét vuông?",
+      "options": [
+        "200 dm²",
+        "20 dm²",
+        "2 000 dm²",
+        "20 000 dm²"
+      ],
+      "context": "",
+      "correctAnswer": "200 dm²",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q144",
+      "questionNumber": 144,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong hình, góc nào là góc tù?",
+      "options": [
+        "Góc 3",
+        "Góc 1",
+        "Góc 2",
+        "Góc 4"
+      ],
+      "context": "",
+      "correctAnswer": "Góc 3",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình 1 là góc nhọn; Hình 2 vuông; Hình 3 tù; Hình 4 bẹt."
+    },
+    {
+      "id": "pdf-q145",
+      "questionNumber": 145,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hai cạnh đối diện của tấm bảng lớp hình chữ nhật thì",
+      "options": [
+        "Vuông góc với nhau",
+        "Song song với nhau",
+        "Cắt nhau tại một điểm",
+        "Tạo thành góc nhọn"
+      ],
+      "context": "",
+      "correctAnswer": "Song song với nhau",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q146",
+      "questionNumber": 146,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Phân số chỉ số ô đã tô màu trong hình là",
+      "options": [
+        "3/8",
+        "5/8",
+        "3/5",
+        "8/3"
+      ],
+      "context": "",
+      "correctAnswer": "3/8",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Hình có 8 ô bằng nhau, tô màu 3 ô."
+    },
+    {
+      "id": "pdf-q147",
+      "questionNumber": 147,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Rút gọn phân số 12/18 được phân số tối giản là",
+      "options": [
+        "2/3",
+        "6/9",
+        "4/6",
+        "3/2"
+      ],
+      "context": "",
+      "correctAnswer": "2/3",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q148",
+      "questionNumber": 148,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "An ăn 2/5 cái bánh, Bình ăn 3/10 cái bánh cùng loại. Bạn nào ăn nhiều hơn?",
+      "options": [
+        "Bình",
+        "Hai bạn ăn bằng nhau",
+        "An",
+        "Không so sánh được"
+      ],
+      "context": "",
+      "correctAnswer": "An",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q149",
+      "questionNumber": 149,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Ngày thứ nhất bạn Minh sơn được 1/3 bức tường, ngày thứ hai sơn được 1/6 bức tường. Cả hai ngày Minh sơn được bao nhiêu phần bức tường?",
+      "options": [
+        "2/9",
+        "1/2",
+        "1/9",
+        "2/3"
+      ],
+      "context": "",
+      "correctAnswer": "1/2",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q150",
+      "questionNumber": 150,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một cuộn vải dài 24 m. Cô thợ may dùng 2/3 cuộn vải để may rèm. Cô đã dùng bao nhiêu mét vải?",
+      "options": [
+        "8 m",
+        "36 m",
+        "16 m",
+        "22 m"
+      ],
+      "context": "",
+      "correctAnswer": "16 m",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q151",
+      "questionNumber": 151,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Nhiệt độ buổi trưa ba ngày liên tiếp là 28 °C, 30 °C, 32 °C. Nhiệt độ trung bình của ba ngày là",
+      "options": [
+        "90 °C",
+        "45 °C",
+        "32 °C",
+        "30 °C"
+      ],
+      "context": "",
+      "correctAnswer": "30 °C",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q152",
+      "questionNumber": 152,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Bạn Lan đọc sách 4 ngày được lần lượt 15, 20, 18 và 27 trang. Trung bình mỗi ngày Lan đọc được bao nhiêu trang? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "20"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q153",
+      "questionNumber": 153,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hình có hai cặp cạnh đối diện song song và bốn cạnh bằng nhau là",
+      "options": [
+        "Hình thang",
+        "Hình thoi",
+        "Hình tam giác",
+        "Hình tròn"
+      ],
+      "context": "",
+      "correctAnswer": "Hình thoi",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q154",
+      "questionNumber": 154,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Có 4 536 quả trứng xếp đều vào 7 thùng. Mỗi thùng có bao nhiêu quả trứng?",
+      "options": [
+        "638 quả",
+        "4 529 quả",
+        "31 752 quả",
+        "648 quả"
+      ],
+      "context": "",
+      "correctAnswer": "648 quả",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q155",
+      "questionNumber": 155,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Góc bẹt có số đo bằng bao nhiêu độ?",
+      "options": [
+        "90°",
+        "180°",
+        "360°",
+        "45°"
+      ],
+      "context": "",
+      "correctAnswer": "180°",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q156",
+      "questionNumber": 156,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "1 phút 30 giây bằng bao nhiêu giây?",
+      "options": [
+        "130 giây",
+        "90 giây",
+        "31 giây",
+        "70 giây"
+      ],
+      "context": "",
+      "correctAnswer": "90 giây",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q157",
+      "questionNumber": 157,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bác nông dân thu hoạch được 2 tấn 3 tạ thóc. Số thóc đó bằng bao nhiêu ki-lô-gam?",
+      "options": [
+        "2 030 kg",
+        "5 kg",
+        "2 300 kg",
+        "23 000 kg"
+      ],
+      "context": "",
+      "correctAnswer": "2 300 kg",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q158",
+      "questionNumber": 158,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Phòng học hình chữ nhật dài 8 m, rộng 6 m. Diện tích phòng học là",
+      "options": [
+        "48 m²",
+        "28 m²",
+        "14 m²",
+        "48 m"
+      ],
+      "context": "",
+      "correctAnswer": "48 m²",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q160",
+      "questionNumber": 160,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Khối nào trồng được ít cây nhất?",
+      "options": [
+        "Khối 1",
+        "Khối 5",
+        "Khối 3",
+        "Khối 2"
+      ],
+      "context": "Đọc biểu đồ cột để trả lời các câu 160, 161 và 162. Trong “Tết trồng cây”, các khối lớp của trường trồng cây xanh. Số cây mỗi khối trồng được ghi trên biểu đồ.",
+      "correctAnswer": "Khối 1",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q159: khối 1 trồng 30 cây; khối 2 45; khối 3 60; khối 4 75; khối 5 90."
+    },
+    {
+      "id": "pdf-q161",
+      "questionNumber": 161,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trung bình mỗi khối trồng được bao nhiêu cây?",
+      "options": [
+        "300 cây",
+        "75 cây",
+        "60 cây",
+        "45 cây"
+      ],
+      "context": "Đọc biểu đồ cột để trả lời các câu 160, 161 và 162. Trong “Tết trồng cây”, các khối lớp của trường trồng cây xanh. Số cây mỗi khối trồng được ghi trên biểu đồ.",
+      "correctAnswer": "60 cây",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q159: số cây theo khối là 30, 45, 60, 75, 90."
+    },
+    {
+      "id": "pdf-q162",
+      "questionNumber": 162,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Số cây khối 5 trồng được gấp mấy lần số cây khối 1? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc biểu đồ cột để trả lời các câu 160, 161 và 162. Trong “Tết trồng cây”, các khối lớp của trường trồng cây xanh. Số cây mỗi khối trồng được ghi trên biểu đồ.",
+      "acceptedAnswers": [
+        "3"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q163",
+      "questionNumber": 163,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Cửa hàng nhận 3 tấn gạo. Ngày đầu bán 1/3 số gạo, ngày thứ hai bán 1/2 số gạo còn lại. Cửa hàng còn lại bao nhiêu ki-lô-gam gạo?",
+      "options": [
+        "1 000 kg",
+        "500 kg",
+        "2 000 kg",
+        "1 500 kg"
+      ],
+      "context": "",
+      "correctAnswer": "1 000 kg",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q164",
+      "questionNumber": 164,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Lát nền một phòng hình chữ nhật dài 6 m, rộng 4 m bằng các viên gạch hình vuông cạnh 4 dm. Cần bao nhiêu viên gạch? (Bỏ qua mạch vữa; chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "1500",
+        "1 500"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q165",
+      "questionNumber": 165,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Đội trồng cây: ngày thứ nhất trồng 120 cây, ngày thứ hai trồng nhiều hơn ngày thứ nhất 30 cây, ngày thứ ba trồng bằng trung bình cộng số cây của hai ngày đầu. Ngày thứ ba đội trồng bao nhiêu cây?",
+      "options": [
+        "150 cây",
+        "135 cây",
+        "90 cây",
+        "75 cây"
+      ],
+      "context": "",
+      "correctAnswer": "135 cây",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q166",
+      "questionNumber": 166,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bạn Nam dành 3/4 giờ để làm bài và 1/2 giờ để đọc sách. Nam dành tất cả bao nhiêu phút?",
+      "options": [
+        "4 phút",
+        "50 phút",
+        "60 phút",
+        "75 phút"
+      ],
+      "context": "",
+      "correctAnswer": "75 phút",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q167",
+      "questionNumber": 167,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mảnh vườn hình chữ nhật có chu vi 50 m, chiều dài 15 m. Diện tích mảnh vườn là",
+      "options": [
+        "750 m²",
+        "525 m²",
+        "375 m²",
+        "150 m²"
+      ],
+      "context": "",
+      "correctAnswer": "150 m²",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q168",
+      "questionNumber": 168,
+      "grade": 4,
+      "category": "Toán học",
+      "kind": "open",
+      "prompt": "Thiết kế vườn trường: Lớp em được giao mảnh đất hình chữ nhật dài 6 m, rộng 4 m. Cô giáo muốn dùng 1/2 diện tích trồng hoa, 1/4 diện tích trồng rau, phần còn lại làm lối đi. a) Tính diện tích mỗi phần. b) Vẽ sơ đồ chia mảnh đất (ghi kích thước). c) Nếu mỗi mét vuông trồng 4 cây hoa thì cần bao nhiêu cây hoa?",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Diện tích vườn 24 m²: hoa 12 m², rau 6 m², lối đi 6 m². Số cây hoa: 12 × 4 = 48 cây.",
+      "rubric": [
+        "Tính đúng ba phần diện tích; sơ đồ có kích thước/nhãn; tính đúng 48 cây hoa."
+      ]
+    },
+    {
+      "id": "pdf-q169",
+      "questionNumber": 169,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nước tinh khiết có tính chất nào sau đây?",
+      "options": [
+        "Không màu, không mùi, không vị",
+        "Có màu trắng đục",
+        "Có vị ngọt",
+        "Có hình dạng nhất định"
+      ],
+      "context": "",
+      "correctAnswer": "Không màu, không mùi, không vị",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q170",
+      "questionNumber": 170,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Vì sao mái nhà thường được làm dốc?",
+      "options": [
+        "Để nhà cao hơn",
+        "Để nước mưa chảy xuống nhanh, không đọng lại",
+        "Để nước mưa thấm vào mái",
+        "Để giữ nước mưa trên mái"
+      ],
+      "context": "",
+      "correctAnswer": "Để nước mưa chảy xuống nhanh, không đọng lại",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q171",
+      "questionNumber": 171,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Hơi nước bay lên cao, gặp lạnh sẽ ngưng tụ thành",
+      "options": [
+        "Khí ô-xi",
+        "Cát bụi",
+        "Những giọt nước nhỏ, tạo thành mây",
+        "Muối"
+      ],
+      "context": "",
+      "correctAnswer": "Những giọt nước nhỏ, tạo thành mây",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q172",
+      "questionNumber": 172,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Việc làm nào gây ô nhiễm nguồn nước?",
+      "options": [
+        "Trồng cây ven sông",
+        "Xả rác, nước thải xuống sông, hồ",
+        "Thu gom rác đúng nơi",
+        "Xử lí nước thải trước khi thải ra"
+      ],
+      "context": "",
+      "correctAnswer": "Xả rác, nước thải xuống sông, hồ",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q173",
+      "questionNumber": 173,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Cách nào giúp có nước uống an toàn tại gia đình?",
+      "options": [
+        "Uống trực tiếp nước ao",
+        "Lọc nước rồi đun sôi",
+        "Chỉ để lắng nước 5 phút rồi uống",
+        "Cho đá lạnh vào nước giếng"
+      ],
+      "context": "",
+      "correctAnswer": "Lọc nước rồi đun sôi",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q174",
+      "questionNumber": 174,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Thành phần nào của không khí cần cho sự cháy và sự thở?",
+      "options": [
+        "Khí ni-tơ",
+        "Khí các-bô-níc",
+        "Hơi nước",
+        "Khí ô-xi"
+      ],
+      "context": "",
+      "correctAnswer": "Khí ô-xi",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q175",
+      "questionNumber": 175,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Úp một cốc thuỷ tinh lên cây nến đang cháy, một lúc sau nến tắt. Vì sao?",
+      "options": [
+        "Không khí trong cốc hết dần ô-xi",
+        "Vì cốc thuỷ tinh lạnh",
+        "Vì nến bị ướt",
+        "Vì cốc quá nặng"
+      ],
+      "context": "",
+      "correctAnswer": "Không khí trong cốc hết dần ô-xi",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q176",
+      "questionNumber": 176,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Vật nào tự phát ra ánh sáng?",
+      "options": [
+        "Mặt Trăng",
+        "Cái gương",
+        "Quyển sách",
+        "Mặt Trời"
+      ],
+      "context": "",
+      "correctAnswer": "Mặt Trời",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q177",
+      "questionNumber": 177,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Vật nào cho ánh sáng truyền qua gần như hoàn toàn?",
+      "options": [
+        "Tấm kính trong",
+        "Tấm gỗ",
+        "Tấm bìa cứng",
+        "Tấm kính mờ"
+      ],
+      "context": "",
+      "correctAnswer": "Tấm kính trong",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q178",
+      "questionNumber": 178,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Chiếu đèn pin vào một hình con mèo bằng bìa đặt trước bức tường. Khi đưa đèn pin lại gần hình con mèo hơn, bóng trên tường sẽ thế nào?",
+      "options": [
+        "Nhỏ hơn",
+        "Không thay đổi",
+        "To hơn",
+        "Biến mất"
+      ],
+      "context": "",
+      "correctAnswer": "To hơn",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q179",
+      "questionNumber": 179,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Âm thanh được tạo ra khi nào?",
+      "options": [
+        "Khi vật đứng yên hoàn toàn",
+        "Khi vật được chiếu sáng",
+        "Khi vật bị làm lạnh",
+        "Khi vật rung động"
+      ],
+      "context": "",
+      "correctAnswer": "Khi vật rung động",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q180",
+      "questionNumber": 180,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nhà em ở gần công trường xây dựng rất ồn. Cách nào giúp giảm tiếng ồn?",
+      "options": [
+        "Mở to tivi",
+        "Mở hết cửa sổ",
+        "Đóng cửa, treo rèm dày, trồng cây xanh quanh nhà",
+        "Nói to hơn"
+      ],
+      "context": "",
+      "correctAnswer": "Đóng cửa, treo rèm dày, trồng cây xanh quanh nhà",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q181",
+      "questionNumber": 181,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Vật nào dẫn nhiệt tốt?",
+      "options": [
+        "Chiếc thìa kim loại",
+        "Chiếc đũa gỗ",
+        "Cái cốc nhựa",
+        "Miếng xốp"
+      ],
+      "context": "",
+      "correctAnswer": "Chiếc thìa kim loại",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q182",
+      "questionNumber": 182,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Vì sao tay cầm của nồi, chảo thường làm bằng nhựa hoặc gỗ?",
+      "options": [
+        "Nhựa, gỗ dẫn nhiệt kém nên tay không bị bỏng",
+        "Để nồi nấu chín nhanh hơn",
+        "Vì nhựa, gỗ dẫn nhiệt tốt",
+        "Để nồi nặng hơn"
+      ],
+      "context": "",
+      "correctAnswer": "Nhựa, gỗ dẫn nhiệt kém nên tay không bị bỏng",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q183",
+      "questionNumber": 183,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nhiệt độ cơ thể của người khoẻ mạnh vào khoảng",
+      "options": [
+        "20 °C",
+        "100 °C",
+        "37 °C",
+        "0 °C"
+      ],
+      "context": "",
+      "correctAnswer": "37 °C",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q184",
+      "questionNumber": 184,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Thực vật cần những gì để sống và phát triển?",
+      "options": [
+        "Chỉ cần nước",
+        "Chỉ cần ánh sáng",
+        "Nước, ánh sáng, không khí, chất khoáng và nhiệt độ thích hợp",
+        "Chỉ cần đất"
+      ],
+      "context": "",
+      "correctAnswer": "Nước, ánh sáng, không khí, chất khoáng và nhiệt độ thích hợp",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q185",
+      "questionNumber": 185,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Loại nấm nào thường được dùng làm thức ăn?",
+      "options": [
+        "Mốc xanh trên bánh mì cũ",
+        "Nấm rơm",
+        "Nấm lạ mọc trong rừng",
+        "Mốc đen trên vỏ cam"
+      ],
+      "context": "",
+      "correctAnswer": "Nấm rơm",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q186",
+      "questionNumber": 186,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Để bánh mì lâu bị mốc, em nên",
+      "options": [
+        "Để nơi khô ráo, đóng gói kín, dùng trong hạn",
+        "Để nơi ẩm ướt",
+        "Để ngoài trời nắng mưa",
+        "Để chung với rau còn ướt"
+      ],
+      "context": "",
+      "correctAnswer": "Để nơi khô ráo, đóng gói kín, dùng trong hạn",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q187",
+      "questionNumber": 187,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nhóm thức ăn nào chứa nhiều chất đạm?",
+      "options": [
+        "Cơm, bánh mì, khoai",
+        "Thịt, cá, trứng, đậu phụ",
+        "Dầu ăn, mỡ, bơ",
+        "Rau cải, cà rốt"
+      ],
+      "context": "",
+      "correctAnswer": "Thịt, cá, trứng, đậu phụ",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q188",
+      "questionNumber": 188,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Để phòng tránh đuối nước, em nên làm gì?",
+      "options": [
+        "Tắm ở ao, sông một mình",
+        "Chơi đùa gần giếng không có nắp",
+        "Bơi ngay sau khi ăn no",
+        "Chỉ học bơi, đi bơi khi có người lớn và ở nơi an toàn"
+      ],
+      "context": "",
+      "correctAnswer": "Chỉ học bơi, đi bơi khi có người lớn và ở nơi an toàn",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q190",
+      "questionNumber": 190,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Theo kết quả, cốc nào giữ nước nóng lâu hơn? Vì sao?",
+      "options": [
+        "Cốc thép, vì thép dẫn nhiệt tốt",
+        "Hai cốc như nhau",
+        "Cốc thép, vì thép nặng hơn",
+        "Cốc nhựa, vì nhựa dẫn nhiệt kém hơn thép"
+      ],
+      "context": "Đọc biểu đồ để trả lời các câu 190, 191 và 192. Nhóm bạn rót nước nóng 80 °C vào hai cốc có hình dạng, kích thước như nhau: một cốc nhựa và một cốc thép. Cứ 5 phút các bạn đo nhiệt độ nước một lần.",
+      "correctAnswer": "Cốc nhựa, vì nhựa dẫn nhiệt kém hơn thép",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q189: nhiệt độ thép tại 0/5/10/15 phút là 80/66/55/47 °C; nhựa là 80/72/65/59 °C."
+    },
+    {
+      "id": "pdf-q191",
+      "questionNumber": 191,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "short",
+      "prompt": "Sau 15 phút, nước trong cốc nhựa nóng hơn nước trong cốc thép bao nhiêu độ C? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc biểu đồ để trả lời các câu 190, 191 và 192. Nhóm bạn rót nước nóng 80 °C vào hai cốc có hình dạng, kích thước như nhau: một cốc nhựa và một cốc thép. Cứ 5 phút các bạn đo nhiệt độ nước một lần.",
+      "acceptedAnswers": [
+        "12"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề.",
+      "visualDescription": "Biểu đồ Q189: sau 15 phút nhựa 59 °C, thép 47 °C."
+    },
+    {
+      "id": "pdf-q192",
+      "questionNumber": 192,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "short",
+      "prompt": "Trong 10 phút đầu, nhiệt độ nước trong cốc thép giảm bao nhiêu độ C? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc biểu đồ để trả lời các câu 190, 191 và 192. Nhóm bạn rót nước nóng 80 °C vào hai cốc có hình dạng, kích thước như nhau: một cốc nhựa và một cốc thép. Cứ 5 phút các bạn đo nhiệt độ nước một lần.",
+      "acceptedAnswers": [
+        "25"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề.",
+      "visualDescription": "Biểu đồ Q189: nước trong cốc thép từ 80 °C giảm còn 55 °C sau 10 phút."
+    },
+    {
+      "id": "pdf-q193",
+      "questionNumber": 193,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "short",
+      "prompt": "Mỗi ngày bạn Nam cần uống khoảng 6 cốc nước, mỗi cốc 250 ml. Mỗi ngày Nam cần uống bao nhiêu mi-li-lít nước? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "1500",
+        "1 500"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q194",
+      "questionNumber": 194,
+      "grade": 4,
+      "category": "Khoa học",
+      "kind": "open",
+      "prompt": "Thiết kế hộp giữ ấm cơm trưa từ vật liệu dễ tìm (hộp nhựa, xốp, vải, giấy báo, giấy bạc…). a) Chọn vật liệu cho lớp vỏ và giải thích vì sao. b) Vẽ hình thiết kế, ghi chú các lớp. c) Nêu cách kiểm tra hộp có giữ ấm tốt không.",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Bọc hộp bằng xốp/vải/giấy báo làm lớp cách nhiệt; đặt cùng lượng nước ấm vào các hộp, đo nhiệt độ sau cùng thời gian và so sánh.",
+      "rubric": [
+        "Chọn vật liệu hợp lí và giải thích; bản vẽ có lớp vỏ; phép thử giữ lượng nước, nhiệt độ ban đầu, thời gian giống nhau."
+      ]
+    },
+    {
+      "id": "pdf-q195",
+      "questionNumber": 195,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Thành phần nào là phần mềm?",
+      "options": [
+        "Chương trình soạn thảo văn bản",
+        "Chuột máy tính",
+        "Bàn phím",
+        "Màn hình"
+      ],
+      "context": "",
+      "correctAnswer": "Chương trình soạn thảo văn bản",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q196",
+      "questionNumber": 196,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Khi gõ phím đúng cách, hai ngón trỏ đặt trên hai phím nào?",
+      "options": [
+        "D và K",
+        "S và L",
+        "A và ;",
+        "F và J"
+      ],
+      "context": "",
+      "correctAnswer": "F và J",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q197",
+      "questionNumber": 197,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Muốn tìm thông tin trên Internet, em dùng công cụ nào?",
+      "options": [
+        "Phần mềm vẽ",
+        "Phần mềm luyện gõ phím",
+        "Máy tìm kiếm (ví dụ Google)",
+        "Máy tính bỏ túi"
+      ],
+      "context": "",
+      "correctAnswer": "Máy tìm kiếm (ví dụ Google)",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q198",
+      "questionNumber": 198,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Để tạo thư mục mới trên màn hình nền (Windows), em làm thế nào?",
+      "options": [
+        "Nháy chuột phải → New → Folder",
+        "Nháy đúp vào thùng rác",
+        "Nhấn phím Delete",
+        "Tắt máy tính"
+      ],
+      "context": "",
+      "correctAnswer": "Nháy chuột phải → New → Folder",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q199",
+      "questionNumber": 199,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Trong Scratch, khu vực các nhân vật hoạt động được gọi là gì?",
+      "options": [
+        "Khối lệnh",
+        "Thanh cuộn",
+        "Sân khấu",
+        "Thùng rác"
+      ],
+      "context": "",
+      "correctAnswer": "Sân khấu",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q200",
+      "questionNumber": 200,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Việc làm nào thể hiện tôn trọng bản quyền phần mềm?",
+      "options": [
+        "Bẻ khoá phần mềm để dùng miễn phí",
+        "Dùng phần mềm có bản quyền hoặc phần mềm miễn phí hợp pháp",
+        "Sao chép phần mềm có bản quyền để bán",
+        "Tải phần mềm từ trang web lạ không rõ nguồn"
+      ],
+      "context": "",
+      "correctAnswer": "Dùng phần mềm có bản quyền hoặc phần mềm miễn phí hợp pháp",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q201",
+      "questionNumber": 201,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Muốn đổi cỡ chữ của tiêu đề cho to hơn, việc đầu tiên em cần làm là gì?",
+      "options": [
+        "Chọn (bôi đen) dòng tiêu đề",
+        "Xoá dòng tiêu đề",
+        "Tắt phần mềm",
+        "Gõ lại toàn bộ văn bản"
+      ],
+      "context": "",
+      "correctAnswer": "Chọn (bôi đen) dòng tiêu đề",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q202",
+      "questionNumber": 202,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Khi tìm kiếm, em thấy hình ảnh bạo lực, đáng sợ. Em nên làm gì?",
+      "options": [
+        "Chia sẻ cho bạn bè xem",
+        "Đóng trang đó và báo cho bố mẹ hoặc thầy cô",
+        "Xem tiếp cho hết",
+        "Bấm vào các đường liên kết trong trang đó"
+      ],
+      "context": "",
+      "correctAnswer": "Đóng trang đó và báo cho bố mẹ hoặc thầy cô",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q203",
+      "questionNumber": 203,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Một chương trình Scratch (đã bật bút vẽ) có đoạn lệnh: lặp lại 4 lần [di chuyển 50 bước; xoay phải 90 độ]. Nhân vật vẽ ra hình gì?",
+      "options": [
+        "Hình tam giác",
+        "Hình tròn",
+        "Đoạn thẳng",
+        "Hình vuông"
+      ],
+      "context": "",
+      "correctAnswer": "Hình vuông",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q204",
+      "questionNumber": 204,
+      "grade": 4,
+      "category": "Tin học",
+      "kind": "short",
+      "prompt": "Chương trình: lặp lại 5 lần [di chuyển 20 bước]. Sau khi chạy, nhân vật di chuyển tổng cộng bao nhiêu bước? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "100"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q205",
+      "questionNumber": 205,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Hoa và cây cảnh mang lại lợi ích gì?",
+      "options": [
+        "Làm nhà ở ồn ào hơn",
+        "Thay cho thức ăn hằng ngày",
+        "Trang trí, làm đẹp và góp phần làm không khí trong lành",
+        "Làm phòng tối hơn"
+      ],
+      "context": "",
+      "correctAnswer": "Trang trí, làm đẹp và góp phần làm không khí trong lành",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q206",
+      "questionNumber": 206,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Ở miền Bắc, loại hoa nào thường được dùng trang trí trong dịp Tết?",
+      "options": [
+        "Hoa sen",
+        "Hoa phượng",
+        "Hoa súng",
+        "Hoa đào"
+      ],
+      "context": "",
+      "correctAnswer": "Hoa đào",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q207",
+      "questionNumber": 207,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Dụng cụ nào dùng để xúc, xới đất khi trồng cây trong chậu?",
+      "options": [
+        "Xẻng nhỏ (bay)",
+        "Bình tưới",
+        "Kéo cắt cành",
+        "Găng tay"
+      ],
+      "context": "",
+      "correctAnswer": "Xẻng nhỏ (bay)",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q208",
+      "questionNumber": 208,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Thứ tự các bước gieo hạt hoa trong chậu hợp lí là",
+      "options": [
+        "Gieo hạt → cho đất vào chậu → tưới nhẹ → phủ đất",
+        "Cho đất vào chậu → gieo hạt → phủ lớp đất mỏng → tưới nhẹ",
+        "Tưới thật nhiều → gieo hạt → bỏ đất",
+        "Phủ đất dày → gieo hạt lên trên → không tưới"
+      ],
+      "context": "",
+      "correctAnswer": "Cho đất vào chậu → gieo hạt → phủ lớp đất mỏng → tưới nhẹ",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q209",
+      "questionNumber": 209,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Chậu cây cảnh bị vàng lá vì để trong phòng tối lâu ngày. Em nên làm gì?",
+      "options": [
+        "Tưới thật nhiều nước mỗi giờ",
+        "Cắt hết lá",
+        "Đặt cây vào tủ kín",
+        "Đưa chậu cây ra nơi có ánh sáng phù hợp"
+      ],
+      "context": "",
+      "correctAnswer": "Đưa chậu cây ra nơi có ánh sáng phù hợp",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q210",
+      "questionNumber": 210,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Dụng cụ nào dùng để giữ và vặn đai ốc khi lắp ghép mô hình?",
+      "options": [
+        "Cờ lê",
+        "Kéo",
+        "Thước kẻ",
+        "Bút chì"
+      ],
+      "context": "",
+      "correctAnswer": "Cờ lê",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q211",
+      "questionNumber": 211,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Chi tiết nào dùng để nối, giữ chặt các thanh với nhau trong bộ lắp ghép?",
+      "options": [
+        "Vít và đai ốc",
+        "Bánh xe",
+        "Tấm lớn",
+        "Trục"
+      ],
+      "context": "",
+      "correctAnswer": "Vít và đai ốc",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q212",
+      "questionNumber": 212,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Vì sao chong chóng quay khi em cầm chạy về phía trước?",
+      "options": [
+        "Vì chong chóng có pin",
+        "Vì ánh nắng chiếu vào",
+        "Gió (không khí) đẩy vào các cánh chong chóng",
+        "Vì chong chóng nặng"
+      ],
+      "context": "",
+      "correctAnswer": "Gió (không khí) đẩy vào các cánh chong chóng",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q213",
+      "questionNumber": 213,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "short",
+      "prompt": "Mỗi chậu gieo 3 hạt hoa. Em gieo 8 chậu. Mỗi gói hạt giống có 10 hạt. Em cần mua ít nhất bao nhiêu gói hạt giống? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "3"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q214",
+      "questionNumber": 214,
+      "grade": 4,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Mô hình xe đẩy em lắp xong chạy bị lệch và lắc lư. Nguyên nhân có khả năng nhất là gì?",
+      "options": [
+        "Xe được sơn màu xanh",
+        "Vít, đai ốc ở trục bánh xe bị lỏng hoặc hai bánh lắp không cân",
+        "Xe có 4 bánh",
+        "Xe đặt trên sàn phẳng"
+      ],
+      "context": "",
+      "correctAnswer": "Vít, đai ốc ở trục bánh xe bị lỏng hoặc hai bánh lắp không cân",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q215",
+      "questionNumber": 215,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bạn Mai đo chiều cao cây đậu trong vườn trường được 1 m 25 cm. Viết chiều cao đó dưới dạng số thập phân với đơn vị mét.",
+      "options": [
+        "1,25 m",
+        "12,5 m",
+        "1,025 m",
+        "0,125 m"
+      ],
+      "context": "",
+      "correctAnswer": "1,25 m",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q216",
+      "questionNumber": 216,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trong giờ thể dục, bốn bạn chạy 60 m với thời gian: An 10,5 giây; Bình 10,25 giây; Chi 10,52 giây; Dũng 10,3 giây. Bạn nào chạy nhanh nhất?",
+      "options": [
+        "Bạn An",
+        "Bạn Chi",
+        "Bạn Bình",
+        "Bạn Dũng"
+      ],
+      "context": "",
+      "correctAnswer": "Bạn Bình",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q217",
+      "questionNumber": 217,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Ở chợ, cô bán hàng cân một quả dưa hấu nặng 3,46 kg. Làm tròn số đo này đến hàng phần mười thì được bao nhiêu?",
+      "options": [
+        "3,4 kg",
+        "3 kg",
+        "4 kg",
+        "3,5 kg"
+      ],
+      "context": "",
+      "correctAnswer": "3,5 kg",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q218",
+      "questionNumber": 218,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Mỗi chai nước lọc chứa 1,5 lít. Nhà trường mua 12 chai cho buổi lao động. Tất cả các chai chứa bao nhiêu lít nước?",
+      "options": [
+        "18 lít",
+        "1,8 lít",
+        "13,5 lít",
+        "180 lít"
+      ],
+      "context": "",
+      "correctAnswer": "18 lít",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q219",
+      "questionNumber": 219,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Lớp 5A có 15 bạn nữ và 20 bạn nam. Tỉ số của số bạn nữ và số bạn nam là",
+      "options": [
+        "4/3",
+        "3/4",
+        "3/7",
+        "4/7"
+      ],
+      "context": "",
+      "correctAnswer": "3/4",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q220",
+      "questionNumber": 220,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Nhóm bạn Hà gieo 25 hạt đậu xanh, sau 3 ngày có 20 hạt nảy mầm. Số hạt nảy mầm chiếm bao nhiêu phần trăm số hạt đã gieo?",
+      "options": [
+        "20%",
+        "25%",
+        "80%",
+        "125%"
+      ],
+      "context": "",
+      "correctAnswer": "80%",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q221",
+      "questionNumber": 221,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một bình tưới cây giá 50 000 đồng. Cửa hàng giảm giá 20%. Sau khi giảm, bình tưới có giá bao nhiêu?",
+      "options": [
+        "10 000 đồng",
+        "40 000 đồng",
+        "30 000 đồng",
+        "49 980 đồng"
+      ],
+      "context": "",
+      "correctAnswer": "40 000 đồng",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q222",
+      "questionNumber": 222,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Trên sơ đồ trường học vẽ theo tỉ lệ 1 : 1 000, khoảng cách từ cổng trường đến thư viện là 5 cm. Khoảng cách thật là bao nhiêu mét?",
+      "options": [
+        "5 m",
+        "500 m",
+        "50 m",
+        "5 000 m"
+      ],
+      "context": "",
+      "correctAnswer": "50 m",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q223",
+      "questionNumber": 223,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một biển báo giao thông hình tam giác có độ dài đáy 40 cm và chiều cao 30 cm. Diện tích mặt biển báo là",
+      "options": [
+        "600 cm²",
+        "1 200 cm²",
+        "70 cm²",
+        "140 cm²"
+      ],
+      "context": "",
+      "correctAnswer": "600 cm²",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q224",
+      "questionNumber": 224,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một luống rau có dạng hình thang với đáy lớn 12 m, đáy bé 8 m và chiều cao 5 m. Diện tích luống rau là",
+      "options": [
+        "50 m²",
+        "100 m²",
+        "25 m²",
+        "480 m²"
+      ],
+      "context": "",
+      "correctAnswer": "50 m²",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q225",
+      "questionNumber": 225,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bánh xe đạp của bạn Nam có đường kính 0,6 m. Chu vi bánh xe là bao nhiêu? (Lấy π = 3,14.)",
+      "options": [
+        "0,942 m",
+        "1,1304 m",
+        "1,884 m",
+        "3,768 m"
+      ],
+      "context": "",
+      "correctAnswer": "1,884 m",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q226",
+      "questionNumber": 226,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bồn hoa hình tròn giữa sân trường có bán kính 2 m. Diện tích bồn hoa là bao nhiêu? (Lấy π = 3,14.)",
+      "options": [
+        "6,28 m²",
+        "25,12 m²",
+        "12,56 m²",
+        "50,24 m²"
+      ],
+      "context": "",
+      "correctAnswer": "12,56 m²",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q227",
+      "questionNumber": 227,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một bể nước có thể tích 1,5 m³. Số đo đó bằng bao nhiêu đề-xi-mét khối?",
+      "options": [
+        "150 dm³",
+        "1 500 dm³",
+        "15 dm³",
+        "15 000 dm³"
+      ],
+      "context": "",
+      "correctAnswer": "1 500 dm³",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q228",
+      "questionNumber": 228,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bể cá của lớp có dạng hình hộp chữ nhật, lòng bể dài 60 cm, rộng 30 cm, cao 40 cm. Bể chứa được nhiều nhất bao nhiêu lít nước? (1 lít = 1 dm³.)",
+      "options": [
+        "7,2 lít",
+        "720 lít",
+        "130 lít",
+        "72 lít"
+      ],
+      "context": "",
+      "correctAnswer": "72 lít",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q229",
+      "questionNumber": 229,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Một bể cá hình hộp chữ nhật có lòng bể dài 60 cm, rộng 30 cm. Mực nước trong bể đang cao 25 cm. Cần đổ thêm bao nhiêu lít nước để mực nước cao 35 cm? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "18"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q230",
+      "questionNumber": 230,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một hộp quà hình lập phương có cạnh 2 dm. Thể tích hộp quà là",
+      "options": [
+        "4 dm³",
+        "8 dm³",
+        "6 dm³",
+        "24 dm³"
+      ],
+      "context": "",
+      "correctAnswer": "8 dm³",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q231",
+      "questionNumber": 231,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bạn Lan có một tấm bìa hình chữ nhật dài 30 cm, rộng 20 cm. Lan cắt ở bốn góc bốn hình vuông cạnh 5 cm (như hình) rồi gấp lên thành một cái hộp không nắp để đựng hạt giống. Thể tích của hộp là",
+      "options": [
+        "3 000 cm³",
+        "1 000 cm³",
+        "1 875 cm³",
+        "200 cm³"
+      ],
+      "context": "",
+      "correctAnswer": "1 000 cm³",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q232",
+      "questionNumber": 232,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bạn Nam đạp xe từ nhà đến trường dài 6 km hết 0,5 giờ. Vận tốc trung bình của Nam là",
+      "options": [
+        "3 km/giờ",
+        "6,5 km/giờ",
+        "120 km/giờ",
+        "12 km/giờ"
+      ],
+      "context": "",
+      "correctAnswer": "12 km/giờ",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q233",
+      "questionNumber": 233,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Một xe tải chở rau xuất phát lúc 5 giờ 30 phút và đến chợ đầu mối lúc 7 giờ 15 phút. Xe đi với vận tốc trung bình 40 km/giờ. Quãng đường xe đã đi là",
+      "options": [
+        "70 km",
+        "58 km",
+        "50 km",
+        "140 km"
+      ],
+      "context": "",
+      "correctAnswer": "70 km",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q234",
+      "questionNumber": 234,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Hạt đậu xanh nảy mầm sau 2,5 ngày. Thời gian đó bằng bao nhiêu giờ?",
+      "options": [
+        "25 giờ",
+        "53 giờ",
+        "150 giờ",
+        "60 giờ"
+      ],
+      "context": "",
+      "correctAnswer": "150 giờ",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q235",
+      "questionNumber": 235,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bạn Minh tung một đồng xu 20 lần thì thấy 12 lần xuất hiện mặt sấp. Tỉ số của số lần xuất hiện mặt sấp và tổng số lần tung là",
+      "options": [
+        "2/5",
+        "3/2",
+        "3/5",
+        "1/2"
+      ],
+      "context": "",
+      "correctAnswer": "3/5",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q236",
+      "questionNumber": 236,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Để pha nước chanh, cô bếp trưởng trộn theo tỉ lệ 1 phần nước cốt chanh với 4 phần nước lọc. Cô có 200 ml nước cốt chanh. Cô cần bao nhiêu mi-li-lít nước lọc?",
+      "options": [
+        "50 ml",
+        "1 000 ml",
+        "204 ml",
+        "800 ml"
+      ],
+      "context": "",
+      "correctAnswer": "800 ml",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q237",
+      "questionNumber": 237,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Nhà bếp có một bao gạo 25 kg. Đã dùng hết 40% số gạo. Bao gạo còn lại bao nhiêu ki-lô-gam? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "15"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q238",
+      "questionNumber": 238,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bồn hoa hình tròn có đường kính 5 m. Các bạn trồng cây cúc sát mép bồn, cây nọ cách cây kia 1,57 m (đo dọc theo mép bồn). Cần trồng bao nhiêu cây cúc? (Lấy π = 3,14.)",
+      "options": [
+        "11 cây",
+        "20 cây",
+        "5 cây",
+        "10 cây"
+      ],
+      "context": "",
+      "correctAnswer": "10 cây",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q239",
+      "questionNumber": 239,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Bánh xe của chiếc xe đạp mini có đường kính 60 cm. Bán kính của bánh xe là bao nhiêu?",
+      "options": [
+        "30 cm",
+        "120 cm",
+        "60 cm",
+        "188,4 cm"
+      ],
+      "context": "",
+      "correctAnswer": "30 cm",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q241",
+      "questionNumber": 241,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Rau muống chiếm bao nhiêu phần trăm tổng số rau thu hoạch được trong tháng Ba?",
+      "options": [
+        "30%",
+        "37,5%",
+        "62,5%",
+        "3,75%"
+      ],
+      "context": "Đọc biểu đồ sau để trả lời các câu 241, 242 và 243. Trong tháng Ba, câu lạc bộ Làm vườn của trường thu hoạch rau từ vườn trường. Số ki-lô-gam mỗi loại rau được ghi trên biểu đồ cột dưới đây.",
+      "correctAnswer": "37,5%",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q240: cải 24 kg, mồng tơi 18 kg, rau muống 30 kg, xà lách 8 kg."
+    },
+    {
+      "id": "pdf-q242",
+      "questionNumber": 242,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "choice",
+      "prompt": "Dựa vào biểu đồ, nhận định nào sau đây là đúng?",
+      "options": [
+        "Rau cải và xà lách cộng lại bằng 40% tổng số rau.",
+        "Mồng tơi chiếm nhiều hơn 25% tổng số rau.",
+        "Số rau muống gấp 4 lần số xà lách.",
+        "Trung bình mỗi loại rau thu được 25 kg."
+      ],
+      "context": "Đọc biểu đồ sau để trả lời các câu 241, 242 và 243. Trong tháng Ba, câu lạc bộ Làm vườn của trường thu hoạch rau từ vườn trường. Số ki-lô-gam mỗi loại rau được ghi trên biểu đồ cột dưới đây.",
+      "correctAnswer": "Rau cải và xà lách cộng lại bằng 40% tổng số rau.",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q240: cải 24 kg, mồng tơi 18 kg, rau muống 30 kg, xà lách 8 kg."
+    },
+    {
+      "id": "pdf-q243",
+      "questionNumber": 243,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Số ki-lô-gam mồng tơi bằng bao nhiêu phần trăm số ki-lô-gam rau cải? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc biểu đồ sau để trả lời các câu 241, 242 và 243. Trong tháng Ba, câu lạc bộ Làm vườn của trường thu hoạch rau từ vườn trường. Số ki-lô-gam mỗi loại rau được ghi trên biểu đồ cột dưới đây.",
+      "acceptedAnswers": [
+        "75"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề.",
+      "visualDescription": "Biểu đồ Q240: mồng tơi 18 kg và rau cải 24 kg."
+    },
+    {
+      "id": "pdf-q244",
+      "questionNumber": 244,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "short",
+      "prompt": "Vườn trường hình chữ nhật dài 25 m, rộng 12 m. Người ta dùng 60% diện tích vườn để trồng rau. Trung bình mỗi mét vuông trồng rau thu được 2,5 kg rau. Cả vườn thu được bao nhiêu ki-lô-gam rau? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "450"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q245",
+      "questionNumber": 245,
+      "grade": 5,
+      "category": "Toán học",
+      "kind": "open",
+      "prompt": "THIẾT KẾ THÙNG HỨNG NƯỚC MƯA. Câu lạc bộ Làm vườn cần 60 lít nước mỗi ngày để tưới rau. Các bạn muốn làm một thùng hình hộp chữ nhật để hứng nước mưa, đủ tưới trong 5 ngày không mưa. Chỗ đặt thùng chỉ rộng 1 m × 0,5 m và thùng cao không quá 1 m. a) Thùng cần chứa được ít nhất bao nhiêu lít nước? b) Em hãy đề xuất chiều dài, chiều rộng, chiều cao của thùng (theo đề-xi-mét) rồi tính thể tích để chứng tỏ thùng đủ nước và đặt vừa chỗ. c) Nêu một cách để nước trong thùng không bị muỗi đẻ trứng.",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Cần 60 × 5 = 300 lít. Ví dụ thùng 10 dm × 5 dm × 6 dm = 300 dm³ = 300 lít, vừa giới hạn đặt 10 dm × 5 dm và cao 6 dm. Đậy nắp/lưới để tránh muỗi.",
+      "rubric": [
+        "Tính đúng dung tích ít nhất 300 lít; kích thước vừa chỗ, thể tích đủ; nêu cách chống muỗi."
+      ]
+    },
+    {
+      "id": "pdf-q246",
+      "questionNumber": 246,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Thành phần nào trong đất được tạo ra từ xác thực vật, động vật bị phân huỷ và giúp đất màu mỡ, cung cấp chất dinh dưỡng cho cây?",
+      "options": [
+        "Mùn",
+        "Cát",
+        "Sỏi đá",
+        "Túi ni lông bị vùi trong đất"
+      ],
+      "context": "",
+      "correctAnswer": "Mùn",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q247",
+      "questionNumber": 247,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Ở vùng đồi dốc, mỗi mùa mưa lớp đất màu trên mặt bị nước cuốn trôi. Cách nào sau đây giúp hạn chế hiện tượng này?",
+      "options": [
+        "Trồng cây phủ xanh đồi và làm ruộng bậc thang.",
+        "Chặt bớt cây để đất nhận được nhiều nước mưa hơn.",
+        "Cày xới đất và để trống trong mùa mưa.",
+        "Phun thật nhiều thuốc trừ sâu lên đồi."
+      ],
+      "context": "",
+      "correctAnswer": "Trồng cây phủ xanh đồi và làm ruộng bậc thang.",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q248",
+      "questionNumber": 248,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Việc làm nào sau đây gây ô nhiễm đất?",
+      "options": [
+        "Ủ rác thải hữu cơ để làm phân bón.",
+        "Trồng cây họ Đậu luân phiên với cây khác.",
+        "Mang pin cũ đến điểm thu gom.",
+        "Chôn pin cũ trong vườn rau."
+      ],
+      "context": "",
+      "correctAnswer": "Chôn pin cũ trong vườn rau.",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q249",
+      "questionNumber": 249,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Khi cho từng chất sau vào cốc nước rồi khuấy đều, trường hợp nào tạo thành dung dịch?",
+      "options": [
+        "Cát và nước",
+        "Dầu ăn và nước",
+        "Muối ăn và nước",
+        "Bột tiêu và nước"
+      ],
+      "context": "",
+      "correctAnswer": "Muối ăn và nước",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q250",
+      "questionNumber": 250,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Bạn An muốn lấy lại muối ăn từ một cốc nước muối. An nên làm cách nào?",
+      "options": [
+        "Đun nóng hoặc phơi nắng cho nước bay hơi hết.",
+        "Lọc nước muối qua giấy lọc.",
+        "Để yên cốc nước muối cho muối lắng xuống.",
+        "Dùng nam châm hút muối ra."
+      ],
+      "context": "",
+      "correctAnswer": "Đun nóng hoặc phơi nắng cho nước bay hơi hết.",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q251",
+      "questionNumber": 251,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Hiện tượng nào sau đây là sự biến đổi hoá học (tạo ra chất mới)?",
+      "options": [
+        "Nước đá tan thành nước.",
+        "Đốt tờ giấy thành tro.",
+        "Cắt tờ giấy thành nhiều mảnh nhỏ.",
+        "Hoà tan đường vào nước."
+      ],
+      "context": "",
+      "correctAnswer": "Đốt tờ giấy thành tro.",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q252",
+      "questionNumber": 252,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Vỏ bọc bên ngoài dây điện trong nhà thường làm bằng vật liệu nào?",
+      "options": [
+        "Đồng",
+        "Nhôm",
+        "Nhựa",
+        "Sắt"
+      ],
+      "context": "",
+      "correctAnswer": "Nhựa",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q253",
+      "questionNumber": 253,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nhóm của Hùng lắp mạch điện gồm pin, bóng đèn và dây nối nhưng để hở một chỗ giữa hai đầu dây. Nối hai đầu dây hở đó bằng vật nào sau đây thì đèn sáng?",
+      "options": [
+        "Chiếc thước nhựa",
+        "Cục tẩy cao su",
+        "Đoạn dây len",
+        "Chiếc kẹp giấy bằng sắt"
+      ],
+      "context": "",
+      "correctAnswer": "Chiếc kẹp giấy bằng sắt",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q254",
+      "questionNumber": 254,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Việc làm nào sau đây là an toàn khi sử dụng điện?",
+      "options": [
+        "Cắm phích điện khi tay còn ướt.",
+        "Khi rút phích cắm, cầm vào phần vỏ nhựa của phích và tay phải khô.",
+        "Thả diều gần đường dây điện.",
+        "Chọc que sắt vào lỗ ổ điện."
+      ],
+      "context": "",
+      "correctAnswer": "Khi rút phích cắm, cầm vào phần vỏ nhựa của phích và tay phải khô.",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q255",
+      "questionNumber": 255,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Gia đình em nên làm gì để tiết kiệm điện?",
+      "options": [
+        "Tắt đèn, quạt khi ra khỏi phòng và dùng bóng đèn LED.",
+        "Mở cửa tủ lạnh thật lâu khi lấy đồ.",
+        "Để ti vi ở chế độ chờ suốt đêm.",
+        "Bật điều hoà ở nhiệt độ thấp nhất cả ngày."
+      ],
+      "context": "",
+      "correctAnswer": "Tắt đèn, quạt khi ra khỏi phòng và dùng bóng đèn LED.",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q256",
+      "questionNumber": 256,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nguồn năng lượng nào sau đây không bị cạn kiệt khi con người sử dụng?",
+      "options": [
+        "Than đá",
+        "Dầu mỏ",
+        "Năng lượng mặt trời",
+        "Khí đốt tự nhiên"
+      ],
+      "context": "",
+      "correctAnswer": "Năng lượng mặt trời",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q257",
+      "questionNumber": 257,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "short",
+      "prompt": "Hệ thống pin mặt trời trên mái nhà trường mỗi giờ có nắng tạo ra 2 số điện (2 kWh). Trung bình mỗi ngày có 5 giờ nắng. Trong 30 ngày, hệ thống tạo ra bao nhiêu số điện? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "300"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q258",
+      "questionNumber": 258,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Bộ phận nào của hoa là cơ quan sinh dục cái?",
+      "options": [
+        "Nhị",
+        "Cánh hoa",
+        "Nhuỵ",
+        "Đài hoa"
+      ],
+      "context": "",
+      "correctAnswer": "Nhuỵ",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q259",
+      "questionNumber": 259,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Một số người trồng bí lấy hoa đực chấm nhẹ vào nhuỵ của hoa cái vào buổi sáng. Việc làm này nhằm mục đích gì?",
+      "options": [
+        "Giúp hạt phấn rơi lên đầu nhuỵ để hoa cái tạo thành quả.",
+        "Giúp hoa đực biến thành hoa cái.",
+        "Giúp cây bí hút được nhiều nước hơn.",
+        "Làm cánh hoa có màu sắc đẹp hơn."
+      ],
+      "context": "",
+      "correctAnswer": "Giúp hạt phấn rơi lên đầu nhuỵ để hoa cái tạo thành quả.",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q261",
+      "questionNumber": 261,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "So sánh kết quả của cốc 1 và cốc 2, nhóm Linh rút ra được kết luận nào?",
+      "options": [
+        "Hạt cần ánh sáng để nảy mầm.",
+        "Hạt cần có nước (độ ẩm) để nảy mầm.",
+        "Hạt cần nhiệt độ thấp để nảy mầm.",
+        "Hạt cần càng nhiều nước càng tốt."
+      ],
+      "context": "Đọc thông tin sau để trả lời các câu 261, 262 và 263. Nhóm bạn Linh làm thí nghiệm với 4 cốc, mỗi cốc đặt 20 hạt đậu xanh và để trong 4 ngày: Cốc 1: lót bông ẩm, để ở nhiệt độ phòng (khoảng 25 °C). Cốc 2: lót bông khô, để ở nhiệt độ phòng. Cốc 3: đổ nước ngập kín hạt, để ở nhiệt độ phòng. Cốc 4: lót bông ẩm, để trong ngăn mát tủ lạnh (khoảng 5 °C). Số hạt nảy mầm sau 4 ngày được ghi trên biểu đồ.",
+      "correctAnswer": "Hạt cần có nước (độ ẩm) để nảy mầm.",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q260: cốc 1 (bông ẩm, 25 °C) có 18 hạt nảy mầm; cốc 2 (bông khô, 25 °C) có 0."
+    },
+    {
+      "id": "pdf-q262",
+      "questionNumber": 262,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Cốc 3 có rất ít hạt nảy mầm dù hạt có rất nhiều nước. Cách giải thích nào hợp lí nhất?",
+      "options": [
+        "Hạt thiếu nước để nảy mầm.",
+        "Nhiệt độ trong phòng quá lạnh.",
+        "Hạt ở cốc 3 không có chất dinh dưỡng.",
+        "Hạt bị ngập nước nên thiếu không khí để nảy mầm."
+      ],
+      "context": "Đọc thông tin sau để trả lời các câu 261, 262 và 263. Nhóm bạn Linh làm thí nghiệm với 4 cốc, mỗi cốc đặt 20 hạt đậu xanh và để trong 4 ngày: Cốc 1: lót bông ẩm, để ở nhiệt độ phòng (khoảng 25 °C). Cốc 2: lót bông khô, để ở nhiệt độ phòng. Cốc 3: đổ nước ngập kín hạt, để ở nhiệt độ phòng. Cốc 4: lót bông ẩm, để trong ngăn mát tủ lạnh (khoảng 5 °C). Số hạt nảy mầm sau 4 ngày được ghi trên biểu đồ.",
+      "correctAnswer": "Hạt bị ngập nước nên thiếu không khí để nảy mầm.",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu.",
+      "visualDescription": "Biểu đồ Q260: cốc 3 bị ngập nước có 2 hạt nảy mầm; cốc 1 bông ẩm có 18."
+    },
+    {
+      "id": "pdf-q263",
+      "questionNumber": 263,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "short",
+      "prompt": "Số hạt nảy mầm ở cốc 1 chiếm bao nhiêu phần trăm số hạt trong cốc? (Chỉ ghi số.)",
+      "options": [],
+      "context": "Đọc thông tin sau để trả lời các câu 261, 262 và 263. Nhóm bạn Linh làm thí nghiệm với 4 cốc, mỗi cốc đặt 20 hạt đậu xanh và để trong 4 ngày: Cốc 1: lót bông ẩm, để ở nhiệt độ phòng (khoảng 25 °C). Cốc 2: lót bông khô, để ở nhiệt độ phòng. Cốc 3: đổ nước ngập kín hạt, để ở nhiệt độ phòng. Cốc 4: lót bông ẩm, để trong ngăn mát tủ lạnh (khoảng 5 °C). Số hạt nảy mầm sau 4 ngày được ghi trên biểu đồ.",
+      "acceptedAnswers": [
+        "90"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề.",
+      "visualDescription": "Biểu đồ Q260: cốc 1 có 18 hạt nảy mầm trên tổng số 20 hạt."
+    },
+    {
+      "id": "pdf-q264",
+      "questionNumber": 264,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Con vật nào sau đây đẻ con?",
+      "options": [
+        "Con gà",
+        "Con mèo",
+        "Con ếch",
+        "Con rùa"
+      ],
+      "context": "",
+      "correctAnswer": "Con mèo",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q265",
+      "questionNumber": 265,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Để phòng bệnh sốt xuất huyết, cô giáo dặn cả lớp lật úp chai lọ, vỏ dừa… không để nước đọng. Việc làm này có tác dụng gì?",
+      "options": [
+        "Giúp chai lọ khô nhanh để bán ve chai.",
+        "Làm muỗi trưởng thành chết ngay lập tức.",
+        "Không còn nơi để muỗi đẻ trứng và bọ gậy phát triển thành muỗi.",
+        "Giúp nước bay hơi để không khí mát hơn."
+      ],
+      "context": "",
+      "correctAnswer": "Không còn nơi để muỗi đẻ trứng và bọ gậy phát triển thành muỗi.",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q266",
+      "questionNumber": 266,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Con người dùng vi khuẩn có ích để làm món ăn nào sau đây?",
+      "options": [
+        "Bánh mì nở xốp",
+        "Muối ăn",
+        "Đường mía",
+        "Sữa chua"
+      ],
+      "context": "",
+      "correctAnswer": "Sữa chua",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q267",
+      "questionNumber": 267,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Ở tuổi dậy thì, bạn nên làm việc nào sau đây để giữ gìn sức khoẻ?",
+      "options": [
+        "Thức khuya chơi trò chơi điện tử.",
+        "Tắm rửa, thay quần áo lót hằng ngày và ăn uống đủ chất.",
+        "Bỏ bữa sáng để giữ dáng.",
+        "Dùng chung khăn tắm với bạn."
+      ],
+      "context": "",
+      "correctAnswer": "Tắm rửa, thay quần áo lót hằng ngày và ăn uống đủ chất.",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q268",
+      "questionNumber": 268,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Một người lạ cho em quà, rủ em đi chơi và dặn em giữ bí mật với bố mẹ. Em nên làm gì?",
+      "options": [
+        "Nhận quà và đi theo vì người đó tốt bụng.",
+        "Nhận quà nhưng giữ bí mật như lời dặn.",
+        "Rủ thêm bạn cùng đi theo người lạ.",
+        "Từ chối, tránh xa người đó và kể ngay với bố mẹ hoặc thầy cô."
+      ],
+      "context": "",
+      "correctAnswer": "Từ chối, tránh xa người đó và kể ngay với bố mẹ hoặc thầy cô.",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q269",
+      "questionNumber": 269,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "choice",
+      "prompt": "Nước thải chứa nhiều phân bón từ các ruộng rau chảy vào một hồ nhỏ. Sau một thời gian, rêu tảo phát triển dày đặc, nước hồ có mùi hôi và cá chết nhiều. Giải pháp nào phù hợp nhất để bảo vệ hồ lâu dài?",
+      "options": [
+        "Bón phân đúng liều lượng và xử lí nước thải trước khi cho chảy vào hồ.",
+        "Thả thêm thật nhiều cá vào hồ.",
+        "Đổ thuốc diệt tảo xuống hồ mỗi tuần.",
+        "Rào hồ lại để không ai đến gần."
+      ],
+      "context": "",
+      "correctAnswer": "Bón phân đúng liều lượng và xử lí nước thải trước khi cho chảy vào hồ.",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q270",
+      "questionNumber": 270,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "short",
+      "prompt": "Vòi sen nhà bạn Nam chảy 10 lít nước mỗi phút. Trước đây Nam tắm hết 8 phút; nay Nam tắm nhanh hơn, chỉ còn 5 phút. Mỗi lần tắm Nam tiết kiệm được bao nhiêu lít nước? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "30"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q271",
+      "questionNumber": 271,
+      "grade": 5,
+      "category": "Khoa học",
+      "kind": "open",
+      "prompt": "THIẾT KẾ BỘ LỌC NƯỚC ĐƠN GIẢN. Sau một trận mưa lớn, nước giếng nhà bạn Hoa bị đục. Em hãy thiết kế một bộ lọc nước từ vỏ chai nhựa (đã cắt đáy, úp ngược) và các vật liệu: sỏi, cát, than củi (hoặc than hoạt tính), bông gòn. a) Vẽ hoặc mô tả thứ tự các lớp vật liệu từ trên xuống dưới và nêu tác dụng của mỗi lớp. b) Làm thế nào để biết bộ lọc của em hoạt động tốt? c) Nước sau khi lọc đã uống ngay được chưa? Vì sao?",
+      "options": [],
+      "context": "",
+      "sampleAnswer": "Theo chiều nước chảy từ trên xuống: sỏi, cát, than hoạt tính, bông ở gần cổ chai. Sỏi giữ rác lớn, cát giữ cặn nhỏ, than hấp phụ một số chất/mùi, bông giữ cặn. So sánh độ trong trước/sau; nước lọc này chưa chắc an toàn để uống, cần khử khuẩn/đun sôi.",
+      "rubric": [
+        "Thứ tự lớp hợp lí và nêu tác dụng; đề xuất kiểm tra; khẳng định không uống ngay vì lọc cơ học không diệt hết vi sinh vật."
+      ]
+    },
+    {
+      "id": "pdf-q272",
+      "questionNumber": 272,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Địa chỉ trang web thường bắt đầu bằng",
+      "options": [
+        "C:\\",
+        "@gmail.com",
+        "https://",
+        ".docx"
+      ],
+      "context": "",
+      "correctAnswer": "https://",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q273",
+      "questionNumber": 273,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Em muốn tìm cách trồng cây cà chua trong chậu. Từ khoá nào phù hợp nhất?",
+      "options": [
+        "cách trồng cà chua trong chậu",
+        "cây",
+        "màu đỏ",
+        "chậu nhựa giá rẻ"
+      ],
+      "context": "",
+      "correctAnswer": "cách trồng cà chua trong chậu",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q274",
+      "questionNumber": 274,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Trong cây thư mục, thư mục nằm bên trong một thư mục khác được gọi là",
+      "options": [
+        "Thư mục con",
+        "Tệp văn bản",
+        "Ổ đĩa",
+        "Biểu tượng"
+      ],
+      "context": "",
+      "correctAnswer": "Thư mục con",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q275",
+      "questionNumber": 275,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Mật khẩu nào mạnh nhất?",
+      "options": [
+        "123456",
+        "lan",
+        "matkhau",
+        "Lan#2014sao"
+      ],
+      "context": "",
+      "correctAnswer": "Lan#2014sao",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q276",
+      "questionNumber": 276,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Trong phần mềm soạn thảo, để chèn bảng em chọn",
+      "options": [
+        "Home → Bold",
+        "Insert → Table",
+        "File → Save",
+        "Insert → Picture"
+      ],
+      "context": "",
+      "correctAnswer": "Insert → Table",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q277",
+      "questionNumber": 277,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Khối lệnh “nếu … thì …” trong Scratch dùng để làm gì?",
+      "options": [
+        "Lặp lại lệnh mãi mãi",
+        "Chỉ thực hiện các lệnh bên trong khi điều kiện đúng",
+        "Thay đổi trang phục nhân vật",
+        "Phát âm thanh"
+      ],
+      "context": "",
+      "correctAnswer": "Chỉ thực hiện các lệnh bên trong khi điều kiện đúng",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q278",
+      "questionNumber": 278,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Nhóm em làm bài trình chiếu “Vườn trường”. Cách chia công việc nào hợp lí nhất?",
+      "options": [
+        "Một bạn làm hết, các bạn khác chờ",
+        "Mỗi bạn làm cả bài riêng rồi chọn một bài",
+        "Không cần phân công, ai thích làm gì thì làm",
+        "Mỗi bạn phụ trách một phần (ảnh, thông tin cây, trình bày), rồi ghép và kiểm tra chung"
+      ],
+      "context": "",
+      "correctAnswer": "Mỗi bạn phụ trách một phần (ảnh, thông tin cây, trình bày), rồi ghép và kiểm tra chung",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q279",
+      "questionNumber": 279,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Thông tin nào em không nên đăng công khai lên mạng?",
+      "options": [
+        "Địa chỉ nhà và số điện thoại",
+        "Tên một cuốn sách hay em đã đọc",
+        "Bức tranh phong cảnh em vẽ (không có thông tin cá nhân)",
+        "Một câu đố vui"
+      ],
+      "context": "",
+      "correctAnswer": "Địa chỉ nhà và số điện thoại",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q280",
+      "questionNumber": 280,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "short",
+      "prompt": "Robot tưới cây làm như sau với từng chậu: nếu đất khô thì tưới 1 cốc nước, nếu không thì không tưới. Năm chậu lần lượt là: khô, ẩm, khô, khô, ẩm. Robot tưới tất cả mấy cốc nước? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "3"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q281",
+      "questionNumber": 281,
+      "grade": 5,
+      "category": "Tin học",
+      "kind": "choice",
+      "prompt": "Em cần thông tin về cách phòng bệnh sốt xuất huyết. Nguồn nào đáng tin cậy nhất?",
+      "options": [
+        "Bình luận của một người lạ trên mạng xã hội",
+        "Tin nhắn chuyển tiếp không rõ nguồn",
+        "Trang web chính thức của Bộ Y tế hoặc bệnh viện",
+        "Quảng cáo bán thuốc trên mạng"
+      ],
+      "context": "",
+      "correctAnswer": "Trang web chính thức của Bộ Y tế hoặc bệnh viện",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q282",
+      "questionNumber": 282,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Công nghệ có vai trò gì trong đời sống?",
+      "options": [
+        "Giúp cuộc sống tiện nghi, an toàn và hiệu quả hơn",
+        "Làm con người không cần học tập",
+        "Chỉ dùng để giải trí",
+        "Chỉ có hại cho môi trường"
+      ],
+      "context": "",
+      "correctAnswer": "Giúp cuộc sống tiện nghi, an toàn và hiệu quả hơn",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q283",
+      "questionNumber": 283,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Nhà sáng chế nào gắn với việc hoàn thiện và đưa bóng đèn sợi đốt vào sử dụng rộng rãi?",
+      "options": [
+        "Isaac Newton",
+        "Alexander Graham Bell",
+        "Thomas Edison",
+        "Anh em nhà Wright"
+      ],
+      "context": "",
+      "correctAnswer": "Thomas Edison",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q284",
+      "questionNumber": 284,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Sáng chế là",
+      "options": [
+        "Mua một sản phẩm mới ở cửa hàng",
+        "Sao chép sản phẩm của người khác",
+        "Sửa lại tên của một sản phẩm",
+        "Tạo ra sản phẩm hoặc giải pháp mới, chưa từng có, giải quyết một vấn đề"
+      ],
+      "context": "",
+      "correctAnswer": "Tạo ra sản phẩm hoặc giải pháp mới, chưa từng có, giải quyết một vấn đề",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q285",
+      "questionNumber": 285,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Thứ tự các bước thiết kế một sản phẩm đơn giản hợp lí là",
+      "options": [
+        "Hình thành ý tưởng → vẽ phác thảo, chọn vật liệu → làm sản phẩm mẫu → kiểm tra, hoàn thiện",
+        "Làm sản phẩm → nghĩ ý tưởng → vẽ phác thảo → chọn vật liệu",
+        "Kiểm tra → làm sản phẩm → vẽ → nghĩ ý tưởng",
+        "Chọn vật liệu → kiểm tra → nghĩ ý tưởng → vẽ"
+      ],
+      "context": "",
+      "correctAnswer": "Hình thành ý tưởng → vẽ phác thảo, chọn vật liệu → làm sản phẩm mẫu → kiểm tra, hoàn thiện",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q286",
+      "questionNumber": 286,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Việc nào đúng khi sử dụng điện thoại?",
+      "options": [
+        "Dùng điện thoại khi tay ướt và đang sạc",
+        "Không vừa sạc pin vừa gọi điện hoặc chơi trò chơi",
+        "Sạc pin qua đêm trên giường, gối",
+        "Nghe điện thoại khi đang đi xe đạp"
+      ],
+      "context": "",
+      "correctAnswer": "Không vừa sạc pin vừa gọi điện hoặc chơi trò chơi",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q287",
+      "questionNumber": 287,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Để dùng tủ lạnh tiết kiệm điện, em nên",
+      "options": [
+        "Không để thức ăn còn nóng vào tủ, mở cửa tủ nhanh rồi đóng kín",
+        "Mở cửa tủ thật lâu để chọn đồ",
+        "Để thức ăn còn nóng vào ngay",
+        "Xếp kín hết các ngăn, không chừa khe hở"
+      ],
+      "context": "",
+      "correctAnswer": "Không để thức ăn còn nóng vào tủ, mở cửa tủ nhanh rồi đóng kín",
+      "originalAnswerLabel": "A",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q288",
+      "questionNumber": 288,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Trong mô hình xe điện chạy bằng pin, bộ phận nào biến điện năng thành chuyển động làm bánh xe quay?",
+      "options": [
+        "Công tắc",
+        "Hộp pin",
+        "Động cơ điện (mô-tơ)",
+        "Thân xe"
+      ],
+      "context": "",
+      "correctAnswer": "Động cơ điện (mô-tơ)",
+      "originalAnswerLabel": "C",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q289",
+      "questionNumber": 289,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Tấm pin mặt trời trong mô hình có tác dụng gì?",
+      "options": [
+        "Biến điện năng thành ánh sáng",
+        "Biến năng lượng ánh sáng Mặt Trời thành điện năng",
+        "Làm mát mô hình",
+        "Phát ra âm thanh"
+      ],
+      "context": "",
+      "correctAnswer": "Biến năng lượng ánh sáng Mặt Trời thành điện năng",
+      "originalAnswerLabel": "B",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    },
+    {
+      "id": "pdf-q290",
+      "questionNumber": 290,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "short",
+      "prompt": "Xe mô hình chạy được 2 m mỗi giây. Xe chạy trong 15 giây được bao nhiêu mét? (Chỉ ghi số.)",
+      "options": [],
+      "context": "",
+      "acceptedAnswers": [
+        "30"
+      ],
+      "answerNote": "Đáp số tính từ dữ kiện trong đề."
+    },
+    {
+      "id": "pdf-q291",
+      "questionNumber": 291,
+      "grade": 5,
+      "category": "Công nghệ",
+      "kind": "choice",
+      "prompt": "Bật công tắc nhưng xe mô hình không chạy, dù động cơ còn tốt. Nguyên nhân có khả năng nhất là gì?",
+      "options": [
+        "Thân xe màu đỏ",
+        "Xe đặt trên bàn",
+        "Bánh xe sạch",
+        "Pin hết hoặc lắp ngược, dây nối bị lỏng"
+      ],
+      "context": "",
+      "correctAnswer": "Pin hết hoặc lắp ngược, dây nối bị lỏng",
+      "originalAnswerLabel": "D",
+      "gradingStatus": "verified",
+      "answerNote": "Đáp án đối chiếu theo kiến thức trong câu hỏi và nội dung tài liệu."
+    }
+  ]
+}

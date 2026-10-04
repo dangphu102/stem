@@ -1,0 +1,15 @@
+.question-context,
+.question-visual-note { margin: 20px 0; padding: 14px 16px; color: #4f665e; background: #eff7ee; border-left: 3px solid #79a88f; border-radius: 7px; }
+.question-context strong, .question-context p,
+.question-visual-note strong, .question-visual-note p { display: block; }
+.question-context strong, .question-visual-note strong { margin-bottom: 5px; font-size: 12px; }
+.question-context p, .question-visual-note p { font-size: 12px; line-height: 1.55; }
+.quiz-response { display: grid; gap: 9px; margin-top: 26px; color: #65736c; font-size: 13px; font-weight: 700; }
+.quiz-response textarea { width: 100%; min-height: 78px; resize: vertical; padding: 13px 14px; color: #40524b; border: 1px solid #dce3dc; background: #fff; border-radius: 8px; font: inherit; line-height: 1.5; }
+.quiz-response textarea:focus { outline: 2px solid #79a88f; outline-offset: 1px; }
+.grade-message { padding: 11px 13px; margin-bottom: 12px; color: #426552; background: #eff7ee; border-radius: 7px; font-size: 12px; line-height: 1.5; }
+.grade-confirm { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; padding: 12px 14px; color: #64736c; background: #fff8df; font-size: 12px; line-height: 1.5; }
+.grade-confirm span { flex: 1 1 100%; }
+.grade-confirm .primary-button, .grade-confirm .secondary-button { margin-top: 0; }
+.submitted-answer p span { font-weight: 700; }
+@media (max-width: 650px) { .quiz-response textarea { font-size: 16px; }.grade-confirm .primary-button { flex: 1; justify-content: center; } }

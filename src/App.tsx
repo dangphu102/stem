@@ -3,19 +3,29 @@ import './App.css'
 import './Profile.css'
 import './Readability.css'
 import './Lessons.css'
-import './PdfQuiz.css'
-import { loadPdfQuestionBank, questionPdfUrl, type PdfQuestion } from './pdfQuestionBank'
+import './QuestionBank.css'
+import questionBankData from './questions.json'
 
 type LessonId = 'bridge' | 'sound' | 'seed' | 'water' | 'wind' | 'heat' | 'irrigation' | 'plants' | 'pinwheel' | 'kite' | 'meal' | 'century' | 'insulation' | 'foodweb' | 'mushrooms' | 'estimate' | 'parallelogram' | 'instrument' | 'shadowtheater' | 'coding'
 type Lesson = { id: LessonId; category: string; duration: string; title: string; description: string; prompt: string; options: string[]; answer: string; materials: string[]; steps?: string[] }
 type LessonProgress = Record<LessonId, { prediction: string; completed: boolean }>
-type Question = PdfQuestion | { id: string; lessonId: LessonId; prompt: string; options: string[]; answer: string; explanation: string }
+type BankQuestion = { id: string; questionNumber: number; grade: number; category: string; kind: 'choice' | 'short' | 'open'; prompt: string; options: string[]; context: string; visualDescription?: string; correctAnswer?: string | null; originalAnswerLabel?: string; gradingStatus?: 'verified' | 'needs_review'; acceptedAnswers?: string[]; sampleAnswer?: string; rubric?: string[]; answerNote?: string }
+type LegacyQuestion = { id: string; lessonId: LessonId; prompt: string; options: string[]; answer: string; explanation: string }
+type Question = BankQuestion | LegacyQuestion
+type QuizQuestion = BankQuestion & { options: string[] }
 type QuizResult = { id: string; date: string; total: number; answers: Record<string, string>; questions?: Question[]; correct?: number; score?: number }
 type View = 'home' | 'lessons' | 'quiz' | 'results' | 'lesson'
 type AvatarId = 'seedling' | 'fox' | 'owl' | 'rocket' | 'unicorn' | 'crown'
 type AvatarOption = { id: AvatarId; icon: string; name: string; requiredDays: number }
 type StudentProfile = { name: string; className: string; school: string; avatarId: AvatarId }
 type LearningStreak = { days: number; lastActiveDate: string; bestDays: number }
+const bankQuestions = questionBankData.questions as BankQuestion[]
+const normalizeAnswer = (answer: string): string => answer.toLocaleLowerCase('vi-VN').replace(/[.,\s]/g, '').trim()
+if (bankQuestions.length !== 285 || bankQuestions.some((question) =>
+  question.kind === 'choice' ? !question.correctAnswer || !question.options.includes(question.correctAnswer)
+    : question.kind === 'short' ? !question.acceptedAnswers?.length
+      : !question.sampleAnswer || !question.rubric?.length,
+)) throw new Error('Ngân hàng câu hỏi STEM thiếu câu hoặc thiếu đáp án/rubric.')
 
 const avatarOptions: AvatarOption[] = [
   { id: 'seedling', icon: '🌱', name: 'Mầm non', requiredDays: 0 },
@@ -111,6 +121,7 @@ const questions: Question[] = [
   { id: 'insulation-2', lessonId: 'insulation', prompt: 'Để so sánh vật liệu bọc cốc, cần...', options: ['Dùng lượng nước và thời gian như nhau', 'Dùng cốc kích thước khác nhau', 'Đổi nhiệt độ liên tục'], answer: 'Dùng lượng nước và thời gian như nhau', explanation: 'Giữ điều kiện giống nhau giúp phép so sánh công bằng.' },
   { id: 'insulation-3', lessonId: 'insulation', prompt: 'Khi thử nước ấm, học sinh nên...', options: ['Nhờ người lớn chuẩn bị, không dùng nước sôi', 'Tự đun nước sôi', 'Chạm tay vào nước nóng'], answer: 'Nhờ người lớn chuẩn bị, không dùng nước sôi', explanation: 'Người lớn chuẩn bị nước ấm vừa phải để tránh bỏng.' },
 ]
+void questions
 
 const defaultProfile: StudentProfile = { name: 'Gia Linh', className: 'Lớp 4/6', school: '', avatarId: 'seedling' }
 const defaultStreak: LearningStreak = { days: 0, lastActiveDate: '', bestDays: 0 }
@@ -133,7 +144,14 @@ const loadStreak = (): LearningStreak => {
 const getAvatarIcon = (avatarId: AvatarId): string => avatarOptions.find((avatar) => avatar.id === avatarId)?.icon ?? avatarOptions[0].icon
 const formatActiveDate = (dateKey: string): string => { if (!dateKey) return 'Chưa có hoạt động'; const [year, month, day] = dateKey.split('-').map(Number); return new Date(year, month - 1, day).toLocaleDateString('vi-VN', { day: 'numeric', month: 'long', year: 'numeric' }) }
 const getTodayLabel = (): string => new Intl.DateTimeFormat('vi-VN', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date()).toLocaleUpperCase('vi-VN')
-const shuffle = <T,>(items: T[]) => [...items].sort(() => Math.random() - 0.5)
+const shuffle = <T,>(items: T[]): T[] => {
+  const shuffled = [...items]
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1))
+    ;[shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]]
+  }
+  return shuffled
+}
 
 function LessonDetail({ lesson, progress, onPrediction, onComplete, onReset, onBack }: { lesson: Lesson; progress: LessonProgress[LessonId]; onPrediction: (answer: string) => void; onComplete: () => void; onReset: () => void; onBack: () => void }) {
   const selected = progress.prediction
@@ -142,21 +160,49 @@ function LessonDetail({ lesson, progress, onPrediction, onComplete, onReset, onB
   return <main className="app-shell detail-shell"><section className="lesson-detail"><button className="back-button" onClick={onBack}>← Quay lại trang chủ</button><div className="detail-intro"><div><span className="pill coral">{lesson.category} · {lesson.duration}</span><h1>{lesson.title}</h1><p>{lesson.description}</p></div><div className={`detail-illustration detail-${lesson.id}`} aria-label={`Minh họa ${lesson.title}`}><span>{lesson.id === 'seed' || lesson.id === 'plants' || lesson.id === 'meal' ? '✺' : lesson.id === 'sound' ? '⌁' : lesson.id === 'water' ? '≈' : lesson.id === 'wind' || lesson.id === 'kite' ? '≋' : lesson.id === 'heat' || lesson.id === 'insulation' ? '♨' : lesson.id === 'pinwheel' ? '✿' : lesson.id === 'century' ? '⌚' : '✦'}</span><div /></div></div><div className="detail-layout"><section className="activity-panel"><span className="eyebrow">BƯỚC 1 · KHÁM PHÁ</span><h2>{lesson.id === 'bridge' ? 'Cây cầu nào chịu được nhiều sách nhất?' : lesson.title}</h2><p>{lesson.description} Hãy quan sát thật kỹ rồi chọn dự đoán của em.</p><div className="materials">{lesson.materials.map((material) => <span key={material}>{material}</span>)}</div>{lesson.steps && <div className="lesson-steps"><h3>Cùng thực hiện nhé</h3><ol>{lesson.steps.map((step) => <li key={step}>{step}</li>)}</ol></div>}<div className={`question-box ${answered ? (correct ? 'answer-correct' : 'answer-wrong') : ''}`}><strong>Hãy đoán trước nhé</strong><span>{lesson.prompt}</span><div>{lesson.options.map((option) => <button className={selected === option ? 'selected' : ''} key={option} onClick={() => onPrediction(option)}>{option}</button>)}</div>{answered && <p className="answer-feedback">{correct ? 'Chính xác! Em đã suy nghĩ như một nhà khoa học.' : 'Gần đúng rồi! Hãy thử quan sát và chọn lại nhé.'}</p>}</div></section><aside className="mission-panel"><span className="eyebrow">TIẾN ĐỘ BÀI HỌC</span><div className="mission-number">{progress.completed ? '3' : answered ? '2' : '1'}<small>/ 3</small></div><div className="mini-progress"><span className={progress.completed ? 'complete' : ''} /></div><p>{progress.completed ? 'Tuyệt vời! Bài học đã được lưu.' : answered ? 'Em đã hoàn thành phần dự đoán.' : 'Chọn một dự đoán để bắt đầu.'}</p><button className="primary-button" disabled={!answered} onClick={onComplete}>{progress.completed ? 'Đã hoàn thành ✓' : 'Lưu hoàn thành →'}</button><button className="reset-button" onClick={onReset}>↺ Reset bài học</button></aside></div></section></main>
 }
 
-function Quiz({ quizQuestions, onSave, onBack, notice }: { quizQuestions: Question[]; onSave: (result: QuizResult) => void; onBack: () => void; notice?: string }) {
+function Quiz({ quizQuestions, onSave, onBack }: { quizQuestions: QuizQuestion[]; onSave: (result: QuizResult) => void; onBack: () => void }) {
   const [current, setCurrent] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const question = quizQuestions[current]
   const answered = Boolean(answers[question.id])
-  const submit = () => { onSave({ id: `${Date.now()}`, date: new Date().toLocaleString('vi-VN'), total: quizQuestions.length, answers: { ...answers }, questions: [...quizQuestions] }) }
-  return <main className="app-shell detail-shell"><section className="quiz-page"><div className="quiz-top"><button className="back-button" onClick={onBack}>← Trang chủ</button><span className="eyebrow">{notice ?? 'ĐỀ NGẪU NHIÊN TỪ PDF · CHỜ CHẤM'}</span><span className="quiz-count">{current + 1} / {quizQuestions.length}</span></div><div className="quiz-progress"><span style={{ width: `${((current + 1) / quizQuestions.length) * 100}%` }} /></div><div className="quiz-card"><span className="pill coral">{'category' in question ? question.category : lessons.find((lesson) => lesson.id === question.lessonId)?.category}</span>{'context' in question && question.context && <aside className="pdf-question-context"><strong>Thông tin dùng chung</strong><p>{question.context}</p></aside>}<h1>{question.prompt}</h1><p className="quiz-source">{'questionNumber' in question ? <>Câu Q{question.questionNumber} · Lớp {question.grade} · Trang {question.sourcePage} · <a href={`${questionPdfUrl}#page=${question.sourcePage}`} target="_blank" rel="noreferrer">Mở trang PDF ↗</a></> : `Kiến thức từ: ${lessons.find((lesson) => lesson.id === question.lessonId)?.title}`}</p>{question.options.length ? <div className="quiz-options">{question.options.map((option, index) => <button className={answers[question.id] === option ? 'quiz-option selected' : 'quiz-option'} key={option} onClick={() => setAnswers((old) => ({ ...old, [question.id]: option }))}><span>{String.fromCharCode(65 + index)}</span>{option}</button>)}</div> : <label className="quiz-response"><span>{'kind' in question && question.kind === 'short' ? 'Câu trả lời (ghi số)' : 'Câu trả lời của em'}</span><textarea rows={'kind' in question && question.kind === 'short' ? 2 : 5} value={answers[question.id] ?? ''} onChange={(event) => setAnswers((old) => ({ ...old, [question.id]: event.target.value }))} placeholder={'kind' in question && question.kind === 'short' ? 'Nhập câu trả lời...' : 'Viết hoặc mô tả ý tưởng của em...'} /></label>}</div><div className="quiz-actions"><button className="secondary-button" disabled={current === 0} onClick={() => setCurrent((value) => value - 1)}>← Câu trước</button>{current === quizQuestions.length - 1 ? <button className="primary-button" onClick={submit}>Lưu bài làm →</button> : <button className="primary-button" onClick={() => setCurrent((value) => value + 1)}>{answered ? 'Câu tiếp theo →' : 'Bỏ qua câu này →'}</button>}</div></section></main>
+  const submit = () => onSave({ id: `${Date.now()}`, date: new Date().toLocaleString('vi-VN'), total: quizQuestions.length, answers: { ...answers }, questions: [...quizQuestions] })
+
+  return <main className="app-shell detail-shell"><section className="quiz-page">
+    <div className="quiz-top"><button className="back-button" onClick={onBack}>← Trang chủ</button><span className="eyebrow">ĐỀ KIỂM TRA STEM · CHỜ CHẤM</span><span className="quiz-count">{current + 1} / {quizQuestions.length}</span></div>
+    <div className="quiz-progress"><span style={{ width: `${((current + 1) / quizQuestions.length) * 100}%` }} /></div>
+    <div className="quiz-card">
+      <span className="pill coral">{question.category} · LỚP {question.grade}</span>
+      {question.context && <aside className="question-context"><strong>Thông tin dùng chung</strong><p>{question.context}</p></aside>}
+      <h1>{question.prompt}</h1>
+      <p className="quiz-source">Câu Q{question.questionNumber}</p>
+      {question.visualDescription && <aside className="question-visual-note"><strong>Hình/biểu đồ trong câu hỏi</strong><p>{question.visualDescription}</p></aside>}
+      {question.options.length ? <div className="quiz-options">{question.options.map((option, index) => <button className={answers[question.id] === option ? 'quiz-option selected' : 'quiz-option'} key={`${index}-${option}`} onClick={() => setAnswers((old) => ({ ...old, [question.id]: option }))}><span>{String.fromCharCode(65 + index)}</span>{option}</button>)}</div> : <label className="quiz-response"><span>{question.kind === 'short' ? 'Câu trả lời (ghi số)' : 'Câu trả lời của em'}</span><textarea rows={question.kind === 'short' ? 2 : 5} value={answers[question.id] ?? ''} onChange={(event) => setAnswers((old) => ({ ...old, [question.id]: event.target.value }))} placeholder={question.kind === 'short' ? 'Nhập câu trả lời...' : 'Viết hoặc mô tả ý tưởng của em...'} /></label>}
+    </div>
+    <div className="quiz-actions"><button className="secondary-button" disabled={current === 0} onClick={() => setCurrent((value) => value - 1)}>← Câu trước</button>{current === quizQuestions.length - 1 ? <button className="primary-button" onClick={submit}>Lưu bài làm →</button> : <button className="primary-button" onClick={() => setCurrent((value) => value + 1)}>{answered ? 'Câu tiếp theo →' : 'Bỏ qua câu này →'}</button>}</div>
+  </section></main>
 }
 
-function Results({ results, onStartQuiz, onBack, studentName }: { results: QuizResult[]; onStartQuiz: () => void; onBack: () => void; studentName: string }) {
+function Results({ results, onStartQuiz, onBack, onGrade, studentName }: { results: QuizResult[]; onStartQuiz: () => void; onBack: () => void; onGrade: (id: string, grade: Pick<QuizResult, 'correct' | 'total' | 'score'>) => void; studentName: string }) {
   const [expandedResult, setExpandedResult] = useState<string | null>(null)
+  const [gradingResult, setGradingResult] = useState<string | null>(null)
+  const [gradeMessage, setGradeMessage] = useState('')
+  const gradeResult = (result: QuizResult) => {
+    const bankQuestions = result.questions?.filter((question): question is BankQuestion => 'questionNumber' in question) ?? []
+    const gradable = bankQuestions.filter((question) => question.kind === 'choice' ? Boolean(question.correctAnswer) : question.kind === 'short' ? Boolean(question.acceptedAnswers?.length) : false)
+    const correct = gradable.filter((question) => question.kind === 'choice'
+      ? result.answers[question.id] === question.correctAnswer
+      : question.acceptedAnswers?.some((answer) => normalizeAnswer(result.answers[question.id] ?? '') === normalizeAnswer(answer)),
+    ).length
+    const score = gradable.length ? Math.round(correct / gradable.length * 100) : 0
+    onGrade(result.id, { correct, total: gradable.length, score })
+    setGradingResult(null)
+    setGradeMessage(`Đã chấm ${correct}/${gradable.length} câu có đáp án cố định. Câu tự luận cần nhận xét thủ công.`)
+  }
   const gradedResults = results.filter((result) => typeof result.score === 'number')
   const best = gradedResults.length ? Math.max(...gradedResults.map((result) => result.score ?? 0)) : null
   const pendingCount = results.length - gradedResults.length
-  return <main className="app-shell detail-shell"><section className="results-page"><div className="quiz-top"><button className="back-button" onClick={onBack}>← Trang chủ</button><span className="eyebrow">BÀI LÀM & KẾT QUẢ</span><span className="quiz-count">{results.length} bài đã lưu</span></div><div className="results-hero"><div><span className="pill coral">ĐÃ LƯU CÂU TRẢ LỜI</span><h1>Ôn tập hôm nay,<br /><em>xem điểm sau</em></h1><p>{studentName} có {pendingCount} bài chờ giáo viên hoặc phụ huynh xem và chấm. Câu trả lời được lưu trên trình duyệt này.</p><button className="primary-button" onClick={onStartQuiz}>Tạo bài 20 câu mới →</button></div><div className="trophy">✦<small>Chờ<br />nhận xét</small></div></div><div className="stats-grid"><div><span>BÀI CHỜ CHẤM</span><strong>{pendingCount}</strong></div><div><span>ĐÃ ĐƯỢC CHẤM</span><strong>{gradedResults.length}</strong></div><div><span>ĐIỂM CAO NHẤT</span><strong>{best === null ? '—' : <>{best}<small>/ 100</small></>}</strong></div></div><section className="history-panel"><div className="section-heading"><div><span className="eyebrow">LỊCH SỬ KIỂM TRA</span><h2>Bài làm đã lưu</h2></div></div>{results.length === 0 ? <p className="empty-state">Chưa có bài làm nào. Bắt đầu bài đầu tiên để lưu câu trả lời.</p> : <div className="history-list">{results.map((result) => { const isExpanded = expandedResult === result.id; const answeredCount = Object.keys(result.answers ?? {}).length; return <article className="history-entry" key={result.id}><div className="history-row"><div><strong>{result.date}</strong><small>{typeof result.score === 'number' ? `${result.correct ?? 0}/${result.total} câu đúng · đã chấm` : `Chờ chấm · ${answeredCount}/${result.total} câu đã trả lời`}</small></div><div className="history-result-actions">{typeof result.score === 'number' && <b>{result.score} điểm</b>}<button className="text-button" aria-expanded={isExpanded} onClick={() => setExpandedResult(isExpanded ? null : result.id)}>{isExpanded ? 'Ẩn câu trả lời ↑' : 'Xem câu trả lời →'}</button></div></div>{isExpanded && <div className="submitted-answers">{result.questions?.length ? result.questions.map((question, index) => <div className="submitted-answer" key={question.id}><strong>{'questionNumber' in question ? `Q${question.questionNumber} · ` : ''}Câu {index + 1}. {question.prompt}</strong>{'context' in question && question.context && <p><span>Thông tin dùng chung:</span> {question.context}</p>}{'sourcePage' in question && <p><span>Nguồn PDF:</span> Trang {question.sourcePage} · <a href={`${questionPdfUrl}#page=${question.sourcePage}`} target="_blank" rel="noreferrer">Mở trang PDF ↗</a></p>}<p><span>Học sinh trả lời:</span> {result.answers?.[question.id] || 'Chưa trả lời'}</p></div>) : <p className="empty-state">Bài làm cũ chỉ lưu điểm tổng, không có chi tiết từng câu trả lời.</p>}</div>}</article> })}</div>}</section></section></main>
+  return <main className="app-shell detail-shell"><section className="results-page"><div className="quiz-top"><button className="back-button" onClick={onBack}>← Trang chủ</button><span className="eyebrow">BÀI LÀM & KẾT QUẢ</span><span className="quiz-count">{results.length} bài đã lưu</span></div><div className="results-hero"><div><span className="pill coral">ĐÃ LƯU CÂU TRẢ LỜI</span><h1>Ôn tập hôm nay,<br /><em>xem điểm sau</em></h1><p>{studentName} có {pendingCount} bài chờ giáo viên hoặc phụ huynh xem và chấm. Câu trả lời được lưu trên trình duyệt này.</p><button className="primary-button" onClick={onStartQuiz}>Tạo bài 20 câu mới →</button></div><div className="trophy">✦<small>Chờ<br />nhận xét</small></div></div><div className="stats-grid"><div><span>BÀI CHỜ CHẤM</span><strong>{pendingCount}</strong></div><div><span>ĐÃ ĐƯỢC CHẤM</span><strong>{gradedResults.length}</strong></div><div><span>ĐIỂM CAO NHẤT</span><strong>{best === null ? '—' : <>{best}<small>/ 100</small></>}</strong></div></div><section className="history-panel"><div className="section-heading"><div><span className="eyebrow">LỊCH SỬ KIỂM TRA</span><h2>Bài làm đã lưu</h2></div></div>{gradeMessage && <p className="grade-message" role="status">{gradeMessage}</p>}{results.length === 0 ? <p className="empty-state">Chưa có bài làm nào. Bắt đầu bài đầu tiên để lưu câu trả lời.</p> : <div className="history-list">{results.map((result) => { const isExpanded = expandedResult === result.id; const answeredCount = Object.keys(result.answers ?? {}).length; return <article className="history-entry" key={result.id}><div className="history-row"><div><strong>{result.date}</strong><small>{typeof result.score === 'number' ? `${result.correct ?? 0}/${result.total} câu đúng · ${result.score} điểm` : `Chờ chấm · ${answeredCount}/${result.total} câu đã trả lời`}</small></div><div className="history-result-actions">{typeof result.score !== 'number' && <button className="text-button" onClick={() => setGradingResult(gradingResult === result.id ? null : result.id)}>Chấm bài</button>}<button className="text-button" aria-expanded={isExpanded} onClick={() => setExpandedResult(isExpanded ? null : result.id)}>{isExpanded ? 'Ẩn câu trả lời ↑' : 'Xem câu trả lời →'}</button></div></div>{gradingResult === result.id && <div className="grade-confirm"><span>Chấm tự động đáp án trắc nghiệm và câu trả lời ngắn. Tự luận vẫn cần xem rubric.</span><button className="primary-button" onClick={() => gradeResult(result)}>Xác nhận chấm</button><button className="secondary-button" onClick={() => setGradingResult(null)}>Hủy</button></div>}{isExpanded && <div className="submitted-answers">{result.questions?.length ? result.questions.map((question, index) => <div className="submitted-answer" key={question.id}><strong>{'questionNumber' in question ? `Q${question.questionNumber} · ` : ''}Câu {index + 1}. {question.prompt}</strong>{'context' in question && question.context && <p><span>Thông tin dùng chung:</span> {question.context}</p>}{'correctAnswer' in question && question.correctAnswer && <p><span>Đáp án đúng:</span> {question.correctAnswer}</p>}{'acceptedAnswers' in question && question.acceptedAnswers?.length ? <p><span>Đáp số chấp nhận:</span> {question.acceptedAnswers.join(' / ')}</p> : null}{'sampleAnswer' in question && question.sampleAnswer && <p><span>Gợi ý chấm:</span> {question.sampleAnswer}</p>}{'rubric' in question && question.rubric?.map((item) => <p key={item}><span>Tiêu chí:</span> {item}</p>)}
+<p><span>Học sinh trả lời:</span> {result.answers?.[question.id] || 'Chưa trả lời'}</p></div>) : <p className="empty-state">Bài làm cũ chỉ lưu điểm tổng, không có chi tiết từng câu trả lời.</p>}</div>}</article> })}</div>}</section></section></main>
 }
 
 function ProfileEditor({ profile, bestStreakDays, onSave, onClose }: { profile: StudentProfile; bestStreakDays: number; onSave: (profile: StudentProfile) => void; onClose: () => void }) {
@@ -188,10 +234,8 @@ function App() {
   const [results, setResults] = useState<QuizResult[]>(() => readStorage('mam-lab-quiz-results', []))
   const [view, setView] = useState<View>('home')
   const [activeLesson, setActiveLesson] = useState<LessonId | null>(null)
-  const [quizQuestions, setQuizQuestions] = useState<Question[]>([])
-  const [pdfQuestions, setPdfQuestions] = useState<PdfQuestion[]>([])
+  const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
   const [quizLoading, setQuizLoading] = useState(false)
-  const [quizError, setQuizError] = useState('')
 
   useEffect(() => { localStorage.setItem('mam-lab-profile', JSON.stringify(profile)) }, [profile])
   useEffect(() => { localStorage.setItem('mam-lab-streak', JSON.stringify(streak)) }, [streak])
@@ -199,37 +243,27 @@ function App() {
   useEffect(() => { localStorage.setItem('mam-lab-quiz-results', JSON.stringify(results)) }, [results])
   const completedCount = Object.values(progress).filter((item) => item.completed).length
   const nextLesson = lessons.find((lesson) => !progress[lesson.id].completed)
-  const startQuiz = async () => {
+  const startQuiz = () => {
     setQuizLoading(true)
-    setQuizError('')
-    try {
-      const bank = pdfQuestions.length ? pdfQuestions : await loadPdfQuestionBank()
-      if (!pdfQuestions.length) setPdfQuestions(bank)
-      setQuizQuestions(shuffle(bank).slice(0, 20))
-      setView('quiz')
-    } catch (error) {
-      console.error('Không thể đọc câu hỏi từ PDF:', error)
-      setQuizError('Không đọc được PDF; đang dùng bộ câu hỏi STEM dự phòng.')
-      setQuizQuestions(shuffle(questions).slice(0, 20))
-      setView('quiz')
-    } finally {
-      setQuizLoading(false)
-    }
+    const questionSet = shuffle(bankQuestions).slice(0, 20).map((question) => ({ ...question, options: shuffle(question.options) }))
+    setQuizQuestions(questionSet)
+    setView('quiz')
+    setQuizLoading(false)
   }
   const active = lessons.find((lesson) => lesson.id === activeLesson)
   const updateProgress = (lessonId: LessonId, update: Partial<LessonProgress[LessonId]>) => setProgress((old) => ({ ...old, [lessonId]: { ...old[lessonId], ...update } }))
   const openLesson = (id: LessonId) => { setActiveLesson(id); setView('lesson') }
   const nav = (next: View) => { setActiveLesson(null); setView(next) }
   const viewContent = useMemo(() => {
-    if (view === 'quiz') return <Quiz quizQuestions={quizQuestions} onSave={(result) => { setResults((old) => [result, ...old]); setView('results') }} onBack={() => nav('home')} notice={quizError ? `CẢNH BÁO · ${quizError}` : undefined} />
-    if (view === 'results') return <Results results={results} studentName={profile.name} onStartQuiz={startQuiz} onBack={() => nav('home')} />
+    if (view === 'quiz') return <Quiz quizQuestions={quizQuestions} onSave={(result) => { setResults((old) => [result, ...old]); setView('results') }} onBack={() => nav('home')} />
+    if (view === 'results') return <Results results={results} studentName={profile.name} onStartQuiz={startQuiz} onBack={() => nav('home')} onGrade={(id, grade) => setResults((old) => old.map((result) => result.id === id ? { ...result, ...grade } : result))} />
     if (view === 'lesson' && active) return <LessonDetail lesson={active} progress={progress[active.id]} onPrediction={(prediction) => updateProgress(active.id, { prediction })} onComplete={() => updateProgress(active.id, { completed: true })} onReset={() => updateProgress(active.id, { prediction: '', completed: false })} onBack={() => nav('home')} />
     return null
-  }, [active, progress, profile.name, quizError, quizQuestions, results, view])
+  }, [active, progress, profile.name, quizQuestions, results, view])
   if (viewContent) return viewContent
 
   return <main className="app-shell">{showProfile && <ProfileEditor profile={profile} bestStreakDays={streak.bestDays} onSave={(nextProfile) => { setProfile(nextProfile); setShowProfile(false) }} onClose={() => setShowProfile(false)} />}{showStreakInfo && <StreakInfo streak={streak} onClose={() => setShowStreakInfo(false)} />}<aside className="sidebar"><div className="brand"><span className="brand-mark">✦</span><span>mầm lab</span></div><button type="button" className="profile-chip" onClick={() => setShowProfile(true)} aria-label="Chỉnh sửa hồ sơ học sinh"><span className="avatar">{getAvatarIcon(profile.avatarId)}</span><span><strong>{profile.name}</strong><small>{profile.className}{profile.school ? <> · {profile.school}</> : null} · Nhà khám phá</small></span><span className="chevron">✎</span></button><nav aria-label="Điều hướng chính"><button className="nav-item active" onClick={() => nav('home')}><span>⌂</span> Tổng quan</button><button className="nav-item" onClick={() => document.getElementById('lessons')?.scrollIntoView({ behavior: 'smooth' })}><span>▣</span> Bài học của em <b>{lessons.length}</b></button><button className="nav-item" onClick={startQuiz}><span>✓</span> Kiểm tra kiến thức</button><button className="nav-item" onClick={() => nav('results')}><span>♢</span> Thành tích</button></nav><div className="sidebar-bottom"><div className="help-orbit">?</div><div><strong>Cần trợ giúp?</strong><small>Hỏi người hướng dẫn</small></div><span>›</span></div></aside><section className="content" id="home"><header className="topbar"><div><span className="eyebrow">{getTodayLabel()}</span><h1>Chào {profile.name} <span>✦</span></h1></div><div className="top-actions"><button className="icon-button" aria-label="Thông báo">♧<i /></button><button className="profile-edit-button" onClick={() => setShowProfile(true)} aria-label="Chỉnh sửa hồ sơ">{getAvatarIcon(profile.avatarId)}</button><button className="streak" onClick={() => setShowStreakInfo(true)} aria-label="Xem thông tin chuỗi ngày học"><span>♨</span> {streak.days} ngày <small>liên tiếp</small></button></div></header><section className="hero-card"><div className="hero-copy"><span className="pill coral">{nextLesson ? 'BÀI HỌC TIẾP THEO' : 'CHÚC MỪNG NHÀ KHÁM PHÁ'}</span><h2>{nextLesson ? nextLesson.title : 'Em đã hoàn thành tất cả bài học!'}</h2><p>{nextLesson ? nextLesson.description : 'Tuyệt vời! Em đã hoàn thành toàn bộ thư viện STEM. Em có thể chọn một bài để ôn tập hoặc thử sức với bài kiểm tra nhé.'}</p><button className="primary-button" onClick={() => nextLesson ? openLesson(nextLesson.id) : document.getElementById('lessons')?.scrollIntoView({ behavior: 'smooth' })}>{nextLesson ? 'Bắt đầu bài học' : 'Xem lại thư viện'} <span>→</span></button></div>{nextLesson?.id === 'bridge' ? <div className="bridge-art" aria-label="Minh họa chiếc cầu giấy"><div className="sun">✦</div><div className="cloud cloud-one" /><div className="cloud cloud-two" /><div className="bridge-deck" /><div className="bridge-leg left" /><div className="bridge-leg right" /><div className="water-line" /><div className="paper-note">2<br /><small>vật liệu</small></div></div> : <div className="next-lesson-art" aria-label={nextLesson ? `Minh họa ${nextLesson.title}` : 'Huy hiệu hoàn thành'}><span>{nextLesson ? ({ sound: '♫', seed: '🌱', water: '💧', wind: '≋', heat: '♨', irrigation: '💧', plants: '🌿', pinwheel: '✿', kite: '🪁', meal: '🥗', century: '⌚', insulation: '♨', foodweb: '↗', mushrooms: '🍄', estimate: '≈', parallelogram: '▱', instrument: '♫', shadowtheater: '◐', coding: '⌘', bridge: '✦' } as Record<LessonId, string>)[nextLesson.id] : '✦'}</span><small>{nextLesson ? nextLesson.category : 'HOÀN THÀNH'}</small></div>}
-</section><div className="section-heading"><div><span className="eyebrow">HÀNH TRÌNH CỦA EM</span><h2>Hôm nay em muốn làm gì?</h2></div><button className="text-button" onClick={() => document.getElementById('lessons')?.scrollIntoView({ behavior: 'smooth' })}>Xem tất cả <span>→</span></button></div><section className="lesson-grid" id="lessons">{lessons.map((lesson) => <article className={`lesson-card lesson-${lesson.id}`} key={lesson.id} onClick={() => openLesson(lesson.id)}><div className="card-icon">{lesson.id === 'seed' || lesson.id === 'plants' ? '✺' : lesson.id === 'water' ? '≈' : lesson.id === 'wind' ? '≋' : lesson.id === 'heat' ? '♨' : lesson.id === 'irrigation' ? '◌' : '⌁'}</div><div><span className="card-label">{lesson.category} · {lesson.duration}</span><h3>{lesson.title}</h3><p>{lesson.description}</p></div><button className="round-arrow" aria-label={`Mở bài học ${lesson.title}`} onClick={(event) => { event.stopPropagation(); openLesson(lesson.id) }}>↗</button>{progress[lesson.id].completed && <span className="completed-badge">✓ Đã lưu</span>}</article>)}</section><section className="quiz-promo"><div><span className="eyebrow">ĐỀ KIỂM TRA TỪ PDF · 20 CÂU</span><h2>Sẵn sàng thử sức?</h2><p>Chọn ngẫu nhiên 20 câu trong ngân hàng câu hỏi của tài liệu PDF. Bài làm được lưu để giáo viên hoặc phụ huynh chấm sau.</p>{quizError && <p className="quiz-error" role="alert">{quizError}</p>}</div><button className="primary-button" disabled={quizLoading} onClick={startQuiz}>{quizLoading ? 'Đang đọc PDF…' : 'Bắt đầu kiểm tra'} <span>→</span></button></section><section className="challenge" id="challenge"><div className="challenge-head"><div><span className="eyebrow">THỬ THÁCH NHỎ</span><h2>Tiến độ của {profile.name}</h2></div><span className="progress-label">{completedCount} / {lessons.length} hoàn thành</span></div><div className="progress-track"><span style={{ width: `${completedCount / lessons.length * 100}%` }} className={completedCount === lessons.length ? 'complete' : ''} /></div></section><footer><span>mầm lab · Học bằng đôi tay, hiểu bằng trái tim.</span><span>Tiến bộ nhỏ mỗi ngày <b>♥</b></span></footer></section></main>
+</section><div className="section-heading"><div><span className="eyebrow">HÀNH TRÌNH CỦA EM</span><h2>Hôm nay em muốn làm gì?</h2></div><button className="text-button" onClick={() => document.getElementById('lessons')?.scrollIntoView({ behavior: 'smooth' })}>Xem tất cả <span>→</span></button></div><section className="lesson-grid" id="lessons">{lessons.map((lesson) => <article className={`lesson-card lesson-${lesson.id}`} key={lesson.id} onClick={() => openLesson(lesson.id)}><div className="card-icon">{lesson.id === 'seed' || lesson.id === 'plants' ? '✺' : lesson.id === 'water' ? '≈' : lesson.id === 'wind' ? '≋' : lesson.id === 'heat' ? '♨' : lesson.id === 'irrigation' ? '◌' : '⌁'}</div><div><span className="card-label">{lesson.category} · {lesson.duration}</span><h3>{lesson.title}</h3><p>{lesson.description}</p></div><button className="round-arrow" aria-label={`Mở bài học ${lesson.title}`} onClick={(event) => { event.stopPropagation(); openLesson(lesson.id) }}>↗</button>{progress[lesson.id].completed && <span className="completed-badge">✓ Đã lưu</span>}</article>)}</section><section className="quiz-promo"><div><span className="eyebrow">NGÂN HÀNG CÂU HỎI STEM · 20 CÂU</span><h2>Sẵn sàng thử sức?</h2><p>Chọn ngẫu nhiên 20 câu từ ngân hàng câu hỏi STEM. Thứ tự đáp án cũng được xáo trộn; bài làm được lưu để chấm sau.</p></div><button className="primary-button" disabled={quizLoading} onClick={startQuiz}>{quizLoading ? 'Đang tạo đề…' : 'Bắt đầu kiểm tra'} <span>→</span></button></section><section className="challenge" id="challenge"><div className="challenge-head"><div><span className="eyebrow">THỬ THÁCH NHỎ</span><h2>Tiến độ của {profile.name}</h2></div><span className="progress-label">{completedCount} / {lessons.length} hoàn thành</span></div><div className="progress-track"><span style={{ width: `${completedCount / lessons.length * 100}%` }} className={completedCount === lessons.length ? 'complete' : ''} /></div></section><footer><span>mầm lab · Học bằng đôi tay, hiểu bằng trái tim.</span><span>Tiến bộ nhỏ mỗi ngày <b>♥</b></span></footer></section></main>
 }
 
 export default App
