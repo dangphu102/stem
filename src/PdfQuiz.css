@@ -1,0 +1,11 @@
+.pdf-question-context { margin: 20px 0; padding: 14px 16px; color: #4f665e; background: #eff7ee; border-left: 3px solid #79a88f; border-radius: 7px; }
+.pdf-question-context strong, .pdf-question-context p { display: block; }
+.pdf-question-context strong { margin-bottom: 5px; font-size: 12px; }
+.pdf-question-context p { font-size: 12px; line-height: 1.55; }
+.quiz-source a { color: #427c68; font-weight: 700; text-decoration: none; }
+.quiz-source a:hover { text-decoration: underline; }
+.quiz-response { display: grid; gap: 9px; margin-top: 26px; color: #65736c; font-size: 13px; font-weight: 700; }
+.quiz-response textarea { width: 100%; min-height: 78px; resize: vertical; padding: 13px 14px; color: #40524b; border: 1px solid #dce3dc; background: #fff; border-radius: 8px; font: inherit; line-height: 1.5; }
+.quiz-response textarea:focus { outline: 2px solid #79a88f; outline-offset: 1px; }
+.quiz-error { margin-top: 10px !important; color: #ffe5a6 !important; font-weight: 700; }
+@media (max-width: 650px) { .quiz-response textarea { font-size: 16px; } }
